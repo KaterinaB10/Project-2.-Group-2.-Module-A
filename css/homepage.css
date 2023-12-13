@@ -14,17 +14,19 @@ body {
   margin: 0;
 }
 
+/* TYPOGRAPHY */
+
 h1,
 h2 {
   font-family: "El Messiri", sans-serif;
   color: #1c5f22;
+  margin: 0;
 }
-
-/* TYPOGRAPHY */
 
 p {
   font-family: "Oxygen", sans-serif;
   color: #1c5f22;
+  font-weight: 700;
 }
 
 a {
@@ -32,8 +34,106 @@ a {
   color: #d98324;
   text-transform: uppercase;
   text-decoration: none;
+  font-weight: 700;
+  font-size: 1rem;
 }
 
 /* LAYOUTS */
 
 /* HEADER */
+
+.header-container {
+  margin: 0 auto;
+  max-width: 80%;
+  padding: 5em;
+}
+
+.title-container {
+  margin: 0;
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 3.1rem;
+}
+
+.main-title-second-raw {
+  margin-top: -0.45em;
+  font-size: 7rem;
+}
+
+.sub-title p {
+  margin: 0;
+  margin-top: -2.3em;
+  padding-left: 0.2em;
+  font-size: 1.2rem;
+  color: #d98324;
+}
+
+/* SECTIONS */
+
+section {
+  border-top: 0.05em solid #7fb069;
+}
+
+.section-title-container {
+  margin: 0 auto;
+  max-width: 80%;
+  padding: 5em 0;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.section-content-container {
+  margin: 0 auto;
+  max-width: 80%;
+  padding: 0 0 5em 0;
+}
+
+.button-container a {
+  margin: 0;
+  border: 0.25em solid #d98324;
+  box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
+  border-radius: 22.5em;
+  padding: 1.5em 1em;
+}
+
+.button-container a:hover,
+.button-container a:focus {
+  color: #fff;
+  background-color: #d98324;
+  border: 0.25em solid #d98324;
+  box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
+}
+
+/* SECTION --- 1 */
+.section-1 .text-container {
+  margin: 0;
+  max-width: 50%;
+  text-align: center;
+}
+
+/* SECTION --- 2 */
+.section-2 .section-content-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-2 .text-container {
+  margin: 0;
+  max-width: 50%;
+  text-align: center;
+}
+
+.button-container {
+  max-width: 40%;
+  margin: 0 auto;
+}
