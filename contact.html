@@ -41,41 +41,139 @@
         </div>
       </div>
     </nav>
-    <!-- --- HEADER --- -->
+    <!-- --- VOLUNTEER HEADER --- -->
     <header>
       <div class="main-title">
         <div class="title-container">
-          <h1 class="header-title">Pick-up booking</h1>
+          <h1 class="header-title">Become a volunteer!</h1>
           <p class="header-para">
-            If you would like to arrange a clothes pick-up, please fill in the
-            form below.
+            If you would like to join our wonderful group of volunteers, please
+            fill out your details below.
           </p>
         </div>
       </div>
     </header>
-    <!-- --- BOOKING SECTION--- -->
+    <!-- --- VOLUNTEER SECTION--- -->
     <section>
       <section class="section-1">
         <div class="content-container" id="booking-form">
-          <h2 class="section-title">
-            Please provide your details below and pick a time and date that is
-            convenient for you.
-          </h2>
-          <p class="section-para">
-            Please remember that we can only accept
-            <span class="highlight">clean and dry</span> clothes in plastic bags
-          </p>
-          <div class="customer-name">
-            <form>
-              <label for="full-name">Full name:</label><br />
-              <input type="text" id="full-name" name="full-name" /><br />
-            </form>
+          <div class="volunteer-col1">
+            <h2 class="section-title">Please provide your details below.</h2>
+            <p class="section-para">
+              Please add any wishes regarding the type of work that you will be
+              set in the comments form.
+            </p>
+            <div class="volunteer-fullname">
+              <form>
+                <label for="volunteer-fullname">Full name:</label><br />
+                <input
+                  type="text"
+                  id="volunteer-fullname"
+                  name="volunteer-fullname"
+                  placeholder="First and last name"
+                />
+              </form>
+            </div>
+            <div class="volunteer-telephone">
+              <form>
+                <label for="volunteer-telephone">Telephone number</label><br />
+                <input
+                  type="text"
+                  id="volunteer-telephone"
+                  name="volunteer-telephone"
+                  placeholder="99 99 99 99"
+                />
+              </form>
+            </div>
+            <div class="volunteer-email">
+              <form>
+                <label for="">E-mail:</label><br />
+                <input
+                  type="email"
+                  id="volunteer-email"
+                  name="volunteer-email"
+                  placeholder="E-mail address"
+                />
+              </form>
+            </div>
+            <div class="volunteer-address">
+              <form>
+                <label for="volunteer-address">Please enter your address:</label
+                ><br />
+                <textarea
+                  id="volunteer-address"
+                  name="volunteer-address"
+                  cols="30"
+                  rows="5"
+                  placeholder="Please include your address and post code"
+                ></textarea>
+              </form>
+            </div>
           </div>
-          <div class="customer-address">
-            <form>
-              <label for="customer-address">Address for pick-up</label><br />
-              <input type="text" id="address" name="address" /><br />
-            </form>
+          <div class="volunteer-col2">
+            <div class="volunteer-day">
+              <fieldset class="volunteer-day">
+                <div>
+                  <input type="checkbox" id="monday" name="volunteer-day" />
+                  <label for="volunteer-day">Monday</label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="tuesday" name="volunteer-day" />
+                  <label for="volunteer-day">Tuesday</label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="wednesday" name="volunteer-day" />
+                  <label for="volunteer-day">Wednesday</label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="thursday" name="volunteer-day" />
+                  <label for="volunteer-day">Thursday</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="friday" name="volunteer-day" />
+                  <label for="volunteer-day">Friday</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="saturday" name="volunteer-day" />
+                  <label for="volunteer-day">Saturday</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="sunday" name="volunteer-day" />
+                  <label for="volunteer-day">Sunday</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="any-day" name="volunteer-day" />
+                  <label for="volunteer-day">Any day</label>
+                </div>
+              </fieldset>
+            </div>
+
+            <div class="volunteer-time">
+              <fieldset class="volunteer-time">
+                <div>
+                  <input type="checkbox" id="early" name="time" />
+                  <label for="time">09:00 - 12:00</label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="midday" name="time" />
+                  <label for="time">12:00 - 15:00</label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="late" name="time" />
+                  <label for="time">15:00 - 20:00</label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="any-time" name="time" />
+                  <label for="time">Any time</label>
+                </div>
+              </fieldset>
+            </div>
           </div>
         </div>
       </section>
