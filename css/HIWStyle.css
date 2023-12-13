@@ -1,5 +1,6 @@
 body {
   font-family: "El Messiri", sans-serif;
+  text-align: center;
 }
 
 /* Nav-bar */
@@ -10,7 +11,6 @@ body {
   justify-content: center;
   list-style: none;
   gap: 30px;
-  transition: all ease 3s;
 }
 
 .nav-bar a {
@@ -134,4 +134,54 @@ body {
   background-position: center center;
   transition: filter 0.5s ease;
   filter: grayscale(100%);
+}
+
+/* circles section*/
+
+.circle-container {
+  display: flex;
+  justify-content: center;
+  gap: 10em;
+}
+
+.green-circle,
+.orange-circle {
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+}
+
+.orange-circle {
+  background: #d98324;
+}
+
+.green-circle {
+  background: #7fb069;
+}
+
+/* Repurposing section*/
+
+.repurposing-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 5em 15em;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-and-logo-section {
+  width: 50%;
+}
+
+.repurposing-img {
+  width: 30em;
+}
+
+.repurposing-logo {
+  width: 6em;
+  margin: 1em;
+}
+
+.finn-logo {
+  border-radius: 50%;
 }
