@@ -41,41 +41,85 @@
         </div>
       </div>
     </nav>
-    <!-- --- HEADER --- -->
+    <!-- --- VOLUNTEER HEADER --- -->
     <header>
       <div class="main-title">
         <div class="title-container">
-          <h1 class="header-title">Pick-up booking</h1>
+          <h1 class="header-title">Become a volunteer!</h1>
           <p class="header-para">
-            If you would like to arrange a clothes pick-up, please fill in the
-            form below.
+            If you would like to join our wonderful group of volunteers, please
+            fill out your details below.
           </p>
         </div>
       </div>
     </header>
-    <!-- --- BOOKING SECTION--- -->
+    <!-- --- VOLUNTEER SECTION--- -->
     <section>
       <section class="section-1">
         <div class="content-container" id="booking-form">
-          <h2 class="section-title">
-            Please provide your details below and pick a time and date that is
-            convenient for you.
-          </h2>
-          <p class="section-para">
-            Please remember that we can only accept
-            <span class="highlight">clean and dry</span> clothes in plastic bags
-          </p>
-          <div class="customer-name">
-            <form>
-              <label for="full-name">Full name:</label><br />
-              <input type="text" id="full-name" name="full-name" /><br />
-            </form>
+          <div class="volunteer-col1">
+            <h2 class="section-title">Please provide your details below.</h2>
+            <p class="section-para">
+              Please add any wishes regarding the type of work that you will be
+              set in the comments form.
+            </p>
+            <div class="fullname">
+              <form>
+                <label for="fullname">Full name:</label><br />
+                <input
+                  type="text"
+                  id="fullname"
+                  name="fullname"
+                  placeholder="First and last name"
+                />
+              </form>
+            </div>
+            <div class="telephone">
+              <form>
+                <label for="telephone">Telephone number</label><br />
+                <input
+                  type="text"
+                  id="telephone"
+                  name="telephone"
+                  placeholder="99 99 99 99"
+                />
+              </form>
+            </div>
+            <div class="customer-email">
+              <form>
+                <label for="">E-mail:</label><br />
+                <input
+                  type="email"
+                  id="customer-email"
+                  name="customer-email"
+                  placeholder="E-mail address"
+                />
+              </form>
+            </div>
+            <div class="customer-address">
+              <form>
+                <label for="customer-address">Please enter your address:</label
+                ><br />
+                <textarea
+                  id="customer-address"
+                  name="customer-address"
+                  cols="30"
+                  rows="5"
+                  placeholder="Please include your address and post code"
+                ></textarea>
+              </form>
+            </div>
           </div>
-          <div class="customer-address">
-            <form>
-              <label for="customer-address">Address for pick-up</label><br />
-              <input type="text" id="address" name="address" /><br />
-            </form>
+          <div class="volunteer-col2">
+            <div>
+              <input type="checkbox" id="scales" name="scales" checked />
+              <label for="scales">Scales</label>
+            </div>
+
+            <div>
+              <input type="checkbox" id="horns" name="horns" />
+              <label for="horns">Horns</label>
+            </div>
           </div>
         </div>
       </section>
