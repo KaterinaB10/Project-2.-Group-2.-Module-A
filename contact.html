@@ -63,46 +63,46 @@
               Please add any wishes regarding the type of work that you will be
               set in the comments form.
             </p>
-            <div class="fullname">
+            <div class="volunteer-fullname">
               <form>
-                <label for="fullname">Full name:</label><br />
+                <label for="volunteer-fullname">Full name:</label><br />
                 <input
                   type="text"
-                  id="fullname"
-                  name="fullname"
+                  id="volunteer-fullname"
+                  name="volunteer-fullname"
                   placeholder="First and last name"
                 />
               </form>
             </div>
-            <div class="telephone">
+            <div class="volunteer-telephone">
               <form>
-                <label for="telephone">Telephone number</label><br />
+                <label for="volunteer-telephone">Telephone number</label><br />
                 <input
                   type="text"
-                  id="telephone"
-                  name="telephone"
+                  id="volunteer-telephone"
+                  name="volunteer-telephone"
                   placeholder="99 99 99 99"
                 />
               </form>
             </div>
-            <div class="customer-email">
+            <div class="volunteer-email">
               <form>
                 <label for="">E-mail:</label><br />
                 <input
                   type="email"
-                  id="customer-email"
-                  name="customer-email"
+                  id="volunteer-email"
+                  name="volunteer-email"
                   placeholder="E-mail address"
                 />
               </form>
             </div>
-            <div class="customer-address">
+            <div class="volunteer-address">
               <form>
-                <label for="customer-address">Please enter your address:</label
+                <label for="volunteer-address">Please enter your address:</label
                 ><br />
                 <textarea
-                  id="customer-address"
-                  name="customer-address"
+                  id="volunteer-address"
+                  name="volunteer-address"
                   cols="30"
                   rows="5"
                   placeholder="Please include your address and post code"
@@ -111,14 +111,68 @@
             </div>
           </div>
           <div class="volunteer-col2">
-            <div>
-              <input type="checkbox" id="scales" name="scales" checked />
-              <label for="scales">Scales</label>
+            <div class="volunteer-day">
+              <fieldset class="volunteer-day">
+                <div>
+                  <input type="checkbox" id="monday" name="volunteer-day" />
+                  <label for="volunteer-day">Monday</label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="tuesday" name="volunteer-day" />
+                  <label for="volunteer-day">Tuesday</label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="wednesday" name="volunteer-day" />
+                  <label for="volunteer-day">Wednesday</label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="thursday" name="volunteer-day" />
+                  <label for="volunteer-day">Thursday</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="friday" name="volunteer-day" />
+                  <label for="volunteer-day">Friday</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="saturday" name="volunteer-day" />
+                  <label for="volunteer-day">Saturday</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="sunday" name="volunteer-day" />
+                  <label for="volunteer-day">Sunday</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="any-day" name="volunteer-day" />
+                  <label for="volunteer-day">Any day</label>
+                </div>
+              </fieldset>
             </div>
 
-            <div>
-              <input type="checkbox" id="horns" name="horns" />
-              <label for="horns">Horns</label>
+            <div class="volunteer-time">
+              <fieldset class="volunteer-time">
+                <div>
+                  <input type="checkbox" id="early" name="time" />
+                  <label for="time">09:00 - 12:00</label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="midday" name="time" />
+                  <label for="time">12:00 - 15:00</label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="late" name="time" />
+                  <label for="time">15:00 - 20:00</label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="any-time" name="time" />
+                  <label for="time">Any time</label>
+                </div>
+              </fieldset>
             </div>
           </div>
         </div>
