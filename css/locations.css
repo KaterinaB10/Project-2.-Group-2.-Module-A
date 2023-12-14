@@ -68,12 +68,13 @@ p {
 
 .expander {
   margin: 0 auto;
-  padding: 0 2em;
+  padding: 0;
   max-width: 80%;
   border: 0.05em solid #1c5f22;
 }
 
 #expander-title {
+  margin: 0;
   color: #fff;
   background-color: #d98324;
   text-transform: uppercase;
@@ -85,6 +86,7 @@ input[type="checkbox"] {
 
 label,
 .expended-content p {
+  margin: 0;
   font-family: "Oxygen", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
