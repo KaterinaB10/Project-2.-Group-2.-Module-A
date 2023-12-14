@@ -12,10 +12,10 @@ White: #FDFDFD
 FONTS
 
 HEADERS
-Shadows into light
+"El Messiri", sans-serif;
 
 PAGE CONTENT
-Oxygen
+"Oxygen", sans-serif;
 
 FOOTERS 
 
@@ -26,16 +26,107 @@ body {
   margin: 0;
 }
 
+/* --- HEADER --- */
+
 header {
-  font-family: "El Messiri", sans-serif;
   color: #1c5f22;
+  background-color: #fdfdfd;
+  align-items: center;
   text-align: center;
+  border-bottom: 0.1em solid #7fb069;
+  padding-bottom: 2em;
 }
 
-.header h1 {
-  font-size: 3.1rem;
+.header-container h1 {
+  font-family: "El Messiri", sans-serif;
+  font-size: 3rem;
   font-weight: 400;
 }
 
-.header p {
+.header-container p {
+  font-family: "Oxygen", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+/* --- SECTION --- */
+
+section {
+  background-color: #fdfdfd;
+}
+
+/* --- SECTION TITLE --- */
+
+.section-title-container {
+  max-width: 70%;
+  color: #1c5f22;
+  margin: 2em;
+  align-items: center;
+  text-align: left;
+}
+
+.section-title-container h2 {
+  font-family: "El Messiri", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  padding: 0 0 0 2em;
+}
+
+.section-title-container p {
+  font-family: "Oxygen", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 0 0 0 1em;
+}
+
+/* --- VOLUNTEER FORM --- */
+
+.volunteer-form {
+  color: #1c5f22;
+  font-family: "Oxygen", sans-serif;
+  margin: 2em;
+  padding: 1em;
+  display: flex;
+  border-bottom: 0.1em solid #7fb069;
+}
+
+.volunteer-col1,
+.volunteer-col2 {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+  border: 0.1em solid #d98324;
+}
+
+.volunteer-day,
+.volunteer-time {
+  border: none;
+}
+
+/* --- MAPS SECTION --- */
+
+.map {
+  color: #1c5f22;
+  font-family: "El Messiri", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  padding: 0 0 0 2em;
+  text-align: center;
+  margin: 0 0 0 2em;
+}
+
+/* --- CELEBS SECTION --- */
+
+.celebs {
+  display: flex;
+  padding: 2em;
+}
+
+.supporters img {
+  object-fit: cover;
+  margin: 2em;
+  padding: 2em;
+  width: 20em;
+  height: auto;
 }
