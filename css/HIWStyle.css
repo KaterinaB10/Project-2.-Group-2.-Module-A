@@ -7,23 +7,27 @@ body {
 .header {
   display: flex;
   justify-content: center;
+  justify-content: space-between;
+  padding: 0 1em;
   height: 10%;
   width: 100%;
   position: fixed;
   top: 0;
   background: #fdfdfd;
-  margin-right: 50%;
   box-shadow: 1px 1px 5px #d9d9d9;
 }
 
 .logo {
   width: 10rem;
-  position: absolute;
   left: 1em;
 }
 
 h1 {
   padding: 4em 0 2em 0;
+}
+
+.empty-space {
+  width: 10%;
 }
 /* Nav-bar */
 
@@ -50,13 +54,7 @@ h1 {
 
 #timeline {
   display: flex;
-  background-color: #031625;
-
-  &:hover {
-    .tl-item {
-      width: 23.3333%;
-    }
-  }
+  background-color: #1c5f22;
 }
 
 .tl-item {
@@ -65,7 +63,7 @@ h1 {
   width: 20%;
   height: 80vh;
   min-height: 600px;
-  color: #fff;
+  color: #fdfdfd;
   overflow: hidden;
   transition: width 0.5s ease;
 
@@ -81,7 +79,6 @@ h1 {
   }
 
   &:after {
-    background: transparentize(#031625, 0.15);
     opacity: 1;
     transition: opacity 0.5s ease;
   }
@@ -116,10 +113,6 @@ h1 {
       transform: translateY(0);
       transition: all 0.75s ease 0.5s;
     }
-
-    .tl-bg {
-      filter: grayscale(0);
-    }
   }
 }
 
@@ -143,9 +136,8 @@ h1 {
   border-bottom: 1px solid #fff;
 
   p {
-    font-family: "Pathway Gothic One", Helvetica Neue, Helvetica, Arial,
-      sans-serif;
-    font-size: 1.728rem;
+    font-family: "El Messiri", sans-serif;
+    font-size: 1.6rem;
     line-height: 0;
   }
 }
