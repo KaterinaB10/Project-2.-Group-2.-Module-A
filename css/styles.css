@@ -182,7 +182,7 @@ footer {
   margin: 0 auto;
   padding: 2em;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 @media (max-width: 600px) {
@@ -215,38 +215,30 @@ footer {
   font-size: 1.1rem;
   font-weight: 600;
   text-transform: uppercase;
-  color: #fff;
+  color: #fdfdfd;
 }
 
 .col-title p {
   margin: 0;
 }
 
-.col-1,
-.col-2 {
+.col-1 {
   display: flex;
   flex-direction: column;
   align-items: left;
 }
 
-.footer-container ul {
-  padding-inline-start: 0;
-  margin: 0;
+.col-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 7em;
 }
 
-.footer-container li {
-  list-style: none;
-}
-
-.col-2 a {
-  text-decoration: none;
-  color: #868174;
-}
-
-.col-2 a:hover,
-.col-2 a:focus {
-  text-decoration: none;
-  color: #868174;
+#prize1 img,
+#prize2 img {
+  height: 5em;
+  width: auto;
 }
 
 .col-3 {
