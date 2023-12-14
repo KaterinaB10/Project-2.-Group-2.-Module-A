@@ -31,6 +31,7 @@ h2 {
   margin: 0 auto;
   max-width: 80%;
   padding: 5em;
+  padding-bottom: 0;
 }
 
 .title-container {
@@ -43,6 +44,10 @@ h1 {
   font-size: 3.1rem;
 }
 
+.header-container .image-container {
+  margin-top: 3em;
+}
+
 /* SECTIONS */
 
 section {
@@ -52,12 +57,16 @@ section {
 
 p {
   font-family: "Oxygen", sans-serif;
-  color: #1c5f22;
+  color: #252925;
   font-weight: 700;
   font-size: 1rem;
 }
 
 /* SECTION ---1 */
+.section-1 {
+  padding-top: 1em;
+}
+
 .section-text p {
   margin: 3em auto;
   max-width: 60%;
@@ -69,8 +78,9 @@ p {
 .expander {
   margin: 0 auto;
   padding: 0;
-  max-width: 80%;
+  max-width: 60%;
   border: 0.05em solid #1c5f22;
+  background-color: #cecece;
 }
 
 #expander-title {
@@ -91,6 +101,12 @@ label,
   text-transform: uppercase;
   font-weight: 700;
   color: #242d25;
+  border-bottom: 0.05em solid #1c5f22;
+}
+
+.expander-item-5 label,
+.expander-item-5 p {
+  border-bottom: none;
 }
 
 .expander-item label {
@@ -103,7 +119,8 @@ label,
 }
 
 .expended-content {
-  padding-left: 2em;
+  height: 0;
+  overflow: hidden;
 }
 
 .expended-content-inner {
@@ -115,6 +132,7 @@ label,
   display: block;
   cursor: pointer;
   position: relative;
+  padding-left: 1em;
 }
 
 label:before {
@@ -125,10 +143,33 @@ label:before {
   height: 0;
   font-size: 0;
   position: absolute;
-  top: -5.5px;
-  transition: tranform 1s;
+  top: 6px;
+  left: 5px;
+  transition: tranform 0.5s;
+  user-select: none;
 }
 
 input[type="checkbox"]:checked ~ label:before {
   transform: rotate(90deg);
+}
+
+input[type="checkbox"]:checked ~ .expended-content {
+  height: auto;
+}
+
+.expended-adress label:before {
+  content: none;
+}
+
+.expended-adress {
+  height: 0;
+  overflow: hidden;
+}
+
+input[type="checkbox"]:checked ~ .expended-adress {
+  height: auto;
+}
+
+.expended-adress label {
+  background-color: #fff;
 }
