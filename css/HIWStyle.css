@@ -6,10 +6,9 @@ body {
 
 .header {
   display: flex;
-  justify-content: center;
   justify-content: space-between;
+  align-items: center;
   padding: 0 1em;
-  height: 10%;
   width: 100%;
   position: fixed;
   top: 0;
@@ -20,6 +19,7 @@ body {
 .logo {
   width: 10rem;
   left: 1em;
+  padding: 1em;
 }
 
 h1 {
@@ -34,7 +34,6 @@ h1 {
 .nav-bar {
   font-family: "El Messiri", sans-serif;
   display: flex;
-  align-items: center;
   list-style: none;
   gap: 1.5em;
 }
