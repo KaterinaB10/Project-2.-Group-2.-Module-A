@@ -76,7 +76,10 @@ p {
 }
 
 .adress-form-container {
-  max-width: 45%;
+  flex-basis: 45%;
+  height: 100%;
+  position: sticky;
+  top: 0;
 }
 
 .section-text p {
@@ -147,7 +150,7 @@ label,
   padding-left: 1em;
 }
 
-label:before {
+.expander label:before {
   content: "";
   border-width: 5px;
   border-style: solid;
@@ -199,7 +202,8 @@ input[type="checkbox"]:checked ~ .expended-adress {
 
 /* PICK-UP FORM */
 .pick-up-form-container {
-  max-width: 40%;
+  flex-basis: 40%;
+  height: 100%;
   /* display: flex;
   flex-direction: column;
   align-items: center; */
@@ -219,6 +223,7 @@ h2 {
   color: #1c5f22;
   font-weight: 700;
   border: none;
+  padding-left: 0;
 }
 
 .pick-up-form-container input {
@@ -230,5 +235,8 @@ h2 {
 }
 
 .pick-up-form-container input:focus {
-  background-color: #fff7ef;
+  background-color: #fdfdfd;
+  color: #242d25;
+  font-size: 1em;
+  font-family: "Oxygen", sans-serif;
 }
