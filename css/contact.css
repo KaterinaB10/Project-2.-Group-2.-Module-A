@@ -1,0 +1,41 @@
+/* COLORS
+
+DARKS
+Dark green: #1C5F22
+Orange: #D98324
+
+LIGHTS
+Light green: #7FB069
+White: #FDFDFD
+
+
+FONTS
+
+HEADERS
+Shadows into light
+
+PAGE CONTENT
+Oxygen
+
+FOOTERS 
+
+
+*/
+
+body {
+  margin: 0;
+}
+
+header {
+  font-family: "El Messiri", sans-serif;
+  color: #1c5f22;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 3.1rem;
+  font-weight: 400;
+}
+
+.header p {
+}
