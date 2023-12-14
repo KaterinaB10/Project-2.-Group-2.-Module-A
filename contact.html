@@ -53,16 +53,25 @@
         </div>
       </div>
     </header>
-    <!-- --- VOLUNTEER SECTION--- -->
+
+    <!-- --- BODY SECTION --- -->
     <section>
-      <section class="section-1">
+      <!-- --- VOLUNTEER SECTION--- -->
+
+      <section id="volunteer">
         <div class="content-container" id="booking-form">
+          <!-- --- SECTION TITLE ---     -->
+          <h2 class="section-title">Please provide your details below.</h2>
+          <p class="section-para">
+            Please add any wishes regarding the type of work that you will be
+            set in the comments form.
+          </p>
+
+          <!-- --- FIRST COLUMN --- -->
+
           <div class="volunteer-col1">
-            <h2 class="section-title">Please provide your details below.</h2>
-            <p class="section-para">
-              Please add any wishes regarding the type of work that you will be
-              set in the comments form.
-            </p>
+            <!-- --- NAME --- -->
+
             <div class="volunteer-fullname">
               <form>
                 <label for="volunteer-fullname">Full name:</label><br />
@@ -73,6 +82,8 @@
                   placeholder="First and last name"
                 />
               </form>
+
+              <!-- --- PHONE --- -->
             </div>
             <div class="volunteer-telephone">
               <form>
@@ -84,6 +95,8 @@
                   placeholder="99 99 99 99"
                 />
               </form>
+
+              <!-- --- EMAIL --- -->
             </div>
             <div class="volunteer-email">
               <form>
@@ -96,6 +109,23 @@
                 />
               </form>
             </div>
+
+            <!-- --- ADDRESS --- -->
+            <div class="volunteer-address">
+              <form>
+                <label for="volunteer-address">Please enter your address:</label
+                ><br />
+                <textarea
+                  id="volunteer-address"
+                  name="volunteer-address"
+                  cols="30"
+                  rows="5"
+                  placeholder="Please include your address and post code"
+                ></textarea>
+              </form>
+            </div>
+
+            <!-- --- ADDRESS --- -->
             <div class="volunteer-address">
               <form>
                 <label for="volunteer-address">Please enter your address:</label
@@ -110,7 +140,11 @@
               </form>
             </div>
           </div>
+
+          <!-- --- SECOND COLUMN --- -->
+
           <div class="volunteer-col2">
+            <!-- --- DAY --- -->
             <div class="volunteer-day">
               <fieldset class="volunteer-day">
                 <div>
@@ -151,6 +185,8 @@
               </fieldset>
             </div>
 
+            <!-- --- TIME --- -->
+
             <div class="volunteer-time">
               <fieldset class="volunteer-time">
                 <div>
@@ -174,6 +210,77 @@
                 </div>
               </fieldset>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- --- MAPS SECTION --- -->
+
+      <section id="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1972.6385543739543!2d5.340651977102863!3d60.36861082740215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x463cf945c3167875%3A0xc3672cd3d96d1b36!2sKanalveien%2035%2C%205068%20Bergen!5e0!3m2!1sen!2sno!4v1702467714381!5m2!1sen!2sno"
+          width="400"
+          height="300"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+
+      <!-- --- CELEBS SECTION --- -->
+
+      <section id="celebs">
+        <div class="celebs">
+          <div class="attenborough">
+            <h4 class="celebs-title">David Attenborough</h4>
+
+            <a
+              href="https://en.wikipedia.org/wiki/David_Attenborough"
+              target="_blank"
+              ><img
+                src="./images/attenborough.png"
+                alt="David Attenborough sitting on a beige-yellow coloured rock with the sea, a similar coloured peninsula, but with tropical vegetation and a deep blue sky in the background"
+            /></a>
+          </div>
+          <div class="skavlan">
+            <h4 class="celebs-title">Jenny Skavlan</h4>
+            <a
+              href="https://no.wikipedia.org/wiki/Jenny_Skavlan"
+              target="_blank"
+              ><img
+                src="./images/Skavlan.png"
+                alt="Jenny Skavlan on a grey-blue marbled background"
+            /></a>
+          </div>
+          <div class="jensen">
+            <h4 class="celebs-title">Nina Jensen</h4>
+            <a href="" target="_blank"
+              ><img
+                src="./images/Jensen.png"
+                alt="Nine Jensen with a white hat and red coat in the forest"
+            /></a>
+          </div>
+          <div class="skavlan">
+            <h4 class="celebs-title">David Attenborough</h4>
+            <a
+              href="https://no.wikipedia.org/wiki/Jenny_Skavlan"
+              target="_blank"
+              ><img
+                src="./images/Skavlan.png"
+                alt="Jenny Skavlan on a grey-blue marbled background"
+            /></a>
+          </div>
+          <div class="skavlan">
+            <h4 class="celebs-title">Thor Haakon Bakke</h4>
+            <p>(Han er med på alt)</p>
+            <a
+              href="https://no.wikipedia.org/wiki/Jenny_Skavlan"
+              target="_blank"
+              ><img
+                src="./images/Skavlan.png"
+                alt="Jenny Skavlan on a grey-blue marbled background"
+            /></a>
           </div>
         </div>
       </section>
