@@ -25,7 +25,7 @@ h2 {
 
 p {
   font-family: "Oxygen", sans-serif;
-  color: #1c5f22;
+  color: #252925;
   font-weight: 700;
 }
 
@@ -46,6 +46,9 @@ a {
   margin: 0 auto;
   max-width: 80%;
   padding: 5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .title-container {
@@ -71,6 +74,14 @@ h1 {
   padding-left: 0.2em;
   font-size: 1.2rem;
   color: #d98324;
+}
+
+.main-image-container {
+  width: 70%;
+}
+
+.main-image-container img {
+  width: 100%;
 }
 
 /* SECTIONS */
@@ -112,11 +123,26 @@ h2 {
   border: 0.25em solid #d98324;
 }
 
+.button-container {
+  max-width: 40%;
+  margin: 0 auto;
+}
+
 /* SECTION --- 1 */
+.section-1 .section-content-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .section-1 .text-container {
   margin: 0;
   max-width: 50%;
   text-align: center;
+}
+
+.section-1 img {
+  width: 100%;
 }
 
 /* SECTION --- 2 */
@@ -132,11 +158,6 @@ h2 {
   text-align: center;
 }
 
-.button-container {
-  max-width: 40%;
-  margin: 0 auto;
-}
-
 /* SECTION --- 3 */
 .section-3 .section-content-container {
   display: flex;
@@ -144,15 +165,22 @@ h2 {
   justify-content: space-between;
 }
 
+.section-3 .image-container {
+  max-width: 30%;
+}
+
+.section-3 img {
+  width: 100%;
+}
+
 .section-3 .text-container {
   margin: 0;
-  max-width: 20%;
+  max-width: 50%;
   text-align: center;
 }
 
-.button-container {
-  max-width: 40%;
-  margin: 0 auto;
+.section-3 .button-container {
+  margin: 0;
 }
 
 /* SECTION --- 4 */
@@ -166,9 +194,4 @@ h2 {
   margin: 0;
   max-width: 50%;
   text-align: center;
-}
-
-.button-container {
-  max-width: 40%;
-  margin: 0 auto;
 }
