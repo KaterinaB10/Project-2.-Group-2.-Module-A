@@ -12,6 +12,7 @@ font-family: 'Oxygen', sans-serif;
 
 body {
   margin: 0;
+  background-color: #fdfdfd;
 }
 
 /* TYPOGRAPHY */
@@ -51,7 +52,7 @@ h1 {
 /* SECTIONS */
 
 section {
-  border-top: 0.05em solid #7fb069;
+  /* border-top: 0.05em solid #7fb069; */
   padding: 5em 0;
 }
 
@@ -67,9 +68,19 @@ p {
   padding-top: 1em;
 }
 
+.section-1-content {
+  margin: 0 auto;
+  max-width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.adress-form-container {
+  max-width: 45%;
+}
+
 .section-text p {
-  margin: 3em auto;
-  max-width: 60%;
+  margin: 2em auto;
   text-align: center;
 }
 
@@ -78,9 +89,12 @@ p {
 .expander {
   margin: 0 auto;
   padding: 0;
-  max-width: 60%;
   border: 0.05em solid #1c5f22;
   background-color: #cecece;
+  font-family: "Oxygen", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #242d25;
 }
 
 #expander-title {
@@ -88,6 +102,7 @@ p {
   color: #fff;
   background-color: #d98324;
   text-transform: uppercase;
+  padding: 1em;
 }
 
 input[type="checkbox"] {
@@ -97,10 +112,7 @@ input[type="checkbox"] {
 label,
 .expended-content p {
   margin: 0;
-  font-family: "Oxygen", sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #242d25;
+  padding: 1em;
   border-bottom: 0.05em solid #1c5f22;
 }
 
@@ -110,7 +122,7 @@ label,
 }
 
 .expander-item label {
-  background-color: #fff;
+  background-color: #fdfdfd;
 }
 
 .expended-item-inner label,
@@ -143,7 +155,7 @@ label:before {
   height: 0;
   font-size: 0;
   position: absolute;
-  top: 6px;
+  top: 22px;
   left: 5px;
   transition: tranform 0.5s;
   user-select: none;
@@ -172,4 +184,51 @@ input[type="checkbox"]:checked ~ .expended-adress {
 
 .expended-adress label {
   background-color: #fff;
+}
+
+.expander a {
+  color: #d98324;
+  text-decoration: none;
+}
+
+.expander a:hover,
+.expander a:focus {
+  color: #1c5f22;
+  text-decoration: none;
+}
+
+/* PICK-UP FORM */
+.pick-up-form-container {
+  max-width: 40%;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+}
+
+h2 {
+  margin-top: 2em;
+  text-align: center;
+}
+
+.pick-up-form {
+  max-width: 70%;
+}
+
+.pick-up-form-container label {
+  font-family: "Oxygen", sans-serif;
+  color: #1c5f22;
+  font-weight: 700;
+  border: none;
+}
+
+.pick-up-form-container input {
+  width: 100%;
+  border-radius: 25px;
+  border: 0.1em solid #d98324;
+  background: #fdfdfd;
+  padding: 1em;
+}
+
+.pick-up-form-container input:focus {
+  background-color: #fff7ef;
 }
