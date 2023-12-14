@@ -58,11 +58,10 @@ section {
 /* --- SECTION TITLE --- */
 
 .section-title-container {
-  max-width: 70%;
   color: #1c5f22;
   margin: 2em;
   align-items: center;
-  text-align: left;
+  text-align: center;
 }
 
 .section-title-container h2 {
@@ -84,7 +83,8 @@ section {
 .volunteer-form {
   color: #1c5f22;
   font-family: "Oxygen", sans-serif;
-  margin: 2em;
+  justify-content: center;
+  margin: 0 auto;
   padding: 1em;
   display: flex;
   border-bottom: 0.1em solid #7fb069;
@@ -92,7 +92,7 @@ section {
 
 .volunteer-col1,
 .volunteer-col2 {
-  width: 20%;
+  width: 30%;
   display: flex;
   flex-direction: column;
   padding: 2em;
@@ -102,6 +102,10 @@ section {
 .volunteer-day,
 .volunteer-time {
   border: none;
+}
+
+textarea {
+  resize: none;
 }
 
 /* --- MAPS SECTION --- */
@@ -116,17 +120,42 @@ section {
   margin: 0 0 0 2em;
 }
 
+.map-container {
+  border: 2px solid #1c5f22;
+  width: 25em;
+  height: 20em;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.map-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
 /* --- CELEBS SECTION --- */
 
 .celebs {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   padding: 2em;
+}
+
+.supporters {
+  color: #1c5f22;
+  font-family: "El Messiri", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 400;
+  text-align: center;
 }
 
 .supporters img {
   object-fit: cover;
   margin: 2em;
   padding: 2em;
-  width: 20em;
+  width: 2em;
   height: auto;
 }
