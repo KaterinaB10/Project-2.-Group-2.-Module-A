@@ -46,6 +46,11 @@ p {
   font-size: 1.2rem;
 }
 
+#timeline a {
+  color: #d98324;
+  text-decoration: none;
+}
+
 /* TIMELINE */
 
 #timeline {
