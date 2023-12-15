@@ -89,6 +89,29 @@ p {
   text-align: center;
 }
 
+@media (max-width: 600px) {
+  .section-1-content {
+    margin: 0 auto;
+    padding-top: 3em;
+    max-width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .adress-form-container {
+    position: unset;
+    margin: 0 auto;
+    padding-top: 3em;
+  }
+
+  .section-text p {
+    margin: 2em auto;
+    text-align: center;
+    font-size: 0.8rem;
+  }
+}
+
 /* EXPANDER */
 
 .expander {
@@ -310,4 +333,14 @@ h2 {
 .button-container {
   max-width: 40%;
   margin: 0;
+}
+
+@media (max-width: 600px) {
+  #prize2 {
+    width: 5%;
+  }
+
+  #prize2 img {
+    width: 5%;
+  }
 }
