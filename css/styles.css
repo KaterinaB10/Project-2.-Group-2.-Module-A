@@ -51,15 +51,16 @@ FOOTERS
 /* Navigation items */
 
 .nav-bar {
-  font-family: "El Messiri", sans-serif;
   display: flex;
   list-style: none;
   gap: 1.5em;
+  font-family: "El Messiri", sans-serif;
 }
 
 .nav-bar a {
   color: #1c5f22;
   text-decoration: none;
+  font-family: "El Messiri", sans-serif;
 }
 
 .nav-bar a:hover {
