@@ -216,6 +216,7 @@ h2 {
 
 .pick-up-form {
   max-width: 70%;
+  padding: 0 2em;
 }
 
 .pick-up-form-container label {
@@ -239,4 +240,26 @@ h2 {
   color: #242d25;
   font-size: 1em;
   font-family: "Oxygen", sans-serif;
+}
+
+/* ---- INPUT (date) SETTINGS ----- */
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+input[type="date"] {
+  color: #d98324;
+  text-align: center;
+}
+
+/* ---- INPUT (time) SETTINGS ----- */
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+input[type="time"] {
+  color: #d98324;
+  text-align: center;
 }
