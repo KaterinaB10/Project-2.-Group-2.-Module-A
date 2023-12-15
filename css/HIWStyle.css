@@ -13,6 +13,7 @@ body {
   padding: 0 1em;
   width: 100%;
   position: fixed;
+  z-index: 2;
   top: 0;
   background: #fdfdfd;
   box-shadow: 1px 1px 5px #6c757d;
