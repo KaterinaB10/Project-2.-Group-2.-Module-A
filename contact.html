@@ -83,8 +83,13 @@
                 <div class="volunteer-gender" class="volunteer-form">
                   <label for="volunteer-gender">Gender:</label><br />
                   <select name="volunteer-gender" id="volunteer-gender">
+                    <option value="volunteer-gender" disabled selected>
+                      -
+                    </option>
                     <option value="male">Male</option>
                     <option value="female">Female</option>
+                    <option value="trans">Transgender</option>
+                    <option value="non-co">Non-binary/non-conforming</option>
                     <option value="noanswer">Would rather not say</option>
                   </select>
                 </div>
@@ -124,7 +129,7 @@
                   <textarea
                     id="volunteer-address"
                     name="volunteer-address"
-                    cols="50"
+                    cols="40"
                     rows="5"
                   ></textarea>
                 </form>
@@ -139,8 +144,8 @@
                   <textarea
                     id="volunteer-work"
                     name="volunteer-work"
-                    cols="50"
-                    rows="10"
+                    cols="40"
+                    rows="15"
                   ></textarea>
                 </form>
               </div>
@@ -235,6 +240,7 @@
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1972.6385543739543!2d5.340651977102863!3d60.36861082740215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x463cf945c3167875%3A0xc3672cd3d96d1b36!2sKanalveien%2035%2C%205068%20Bergen!5e0!3m2!1sen!2sno!4v1702467714381!5m2!1sen!2sno"
             width="400"
             height="300"
+            title
             style="border: 0"
             allowfullscreen=""
             loading="lazy"
@@ -249,7 +255,7 @@
         <h4 class="celebs-title">Our supporters!</h4>
         <div class="celebs">
           <div class="supporters">
-            <p class="celebs-title">David Attenborough</p>
+            <p class="celebs-para">David Attenborough</p>
 
             <a
               href="https://en.wikipedia.org/wiki/David_Attenborough"
@@ -260,7 +266,7 @@
             /></a>
           </div>
           <div class="supporters">
-            <p class="celebs-title">Jenny Skavlan</p>
+            <p class="celebs-para">Jenny Skavlan</p>
             <a
               href="https://no.wikipedia.org/wiki/Jenny_Skavlan"
               target="_blank"
@@ -270,7 +276,7 @@
             /></a>
           </div>
           <div class="supporters">
-            <p class="celebs-title">Nina Jensen</p>
+            <p class="celebs-para">Nina Jensen</p>
             <a href="" target="_blank"
               ><img
                 src="./images/Jensen.png"
@@ -278,7 +284,7 @@
             /></a>
           </div>
           <div class="supporters">
-            <p class="celebs-title">Nicolai Cleve Broch</p>
+            <p class="celebs-para">Nicolai Cleve Broch</p>
             <a
               href="https://en.wikipedia.org/wiki/Nicolai_Cleve_Broch"
               target="_blank"
@@ -288,7 +294,7 @@
             /></a>
           </div>
           <div class="supporters">
-            <p class="celebs-title">Thor Haakon Bakke</p>
+            <p class="celebs-para">Thor Haakon Bakke</p>
             <a
               href="https://www.bt.no/tag/0c68e711-d665-40f1-8525-e8364278d23d/thor-haakon-bakke"
               target="_blank"
