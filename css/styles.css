@@ -109,7 +109,7 @@ footer {
 
 .col-title {
   margin: 0;
-  padding: 0 0 0 2em;
+  padding: 0 0 0 2.1em;
   margin-bottom: 0.5em;
   font-size: 1.1rem;
   font-weight: 600;
@@ -125,6 +125,14 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: left;
+}
+
+.footer-list ul {
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
 }
 
 .col-2 {
