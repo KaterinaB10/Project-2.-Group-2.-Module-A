@@ -4,31 +4,6 @@ body {
   margin: 0;
 }
 
-/* Header */
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 1em;
-  width: 100%;
-  position: fixed;
-  z-index: 2;
-  top: 0;
-  background: #fdfdfd;
-  box-shadow: 1px 1px 5px #6c757d;
-}
-
-.logo {
-  width: 10rem;
-  padding: 1em;
-}
-
-.empty-space {
-  width: 15rem;
-  padding: 1em;
-}
-
 /* Text */
 #timeline h3 {
   color: #fdfdfd;
@@ -69,26 +44,6 @@ p {
 
 .circle-container p {
   font-size: 1.2rem;
-}
-
-/* Nav-bar */
-
-.nav-bar {
-  font-family: "El Messiri", sans-serif;
-  display: flex;
-  list-style: none;
-  gap: 1.5em;
-}
-
-.nav-bar a {
-  color: #1c5f22;
-  text-decoration: none;
-}
-
-.nav-bar a:hover {
-  color: #d98324;
-  font-weight: bold;
-  border-bottom: 1px solid #d98324;
 }
 
 /* TIMELINE */
@@ -242,98 +197,4 @@ p {
 
 .finn-logo {
   border-radius: 50%;
-}
-
-/* FOOTER SECTION */
-
-footer {
-  background: #1c5f22;
-  color: #fdfdfd;
-}
-
-.footer-container {
-  max-width: 80%;
-  margin: 0 auto;
-  padding: 2em;
-  display: flex;
-  justify-content: space-between;
-}
-
-@media (max-width: 600px) {
-  .footer-container {
-    max-width: 80%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column-reverse;
-  }
-}
-
-.col {
-  max-width: 30%;
-  margin: 0 auto;
-}
-
-@media (max-width: 600px) {
-  .col-3 {
-    margin-bottom: 1.7em;
-  }
-
-  .col-2 {
-    margin-bottom: 1.7em;
-  }
-}
-
-.col-title {
-  margin: 0;
-  padding: 0 0 0 2.1em;
-  margin-bottom: 0.5em;
-  font-size: 1.1rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  color: #fdfdfd;
-}
-
-.col-title p {
-  margin: 0;
-}
-
-.col-1 {
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-}
-
-.footer-list ul {
-  display: flex;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-  text-align: left;
-}
-
-.col-2 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-right: 7em;
-}
-
-#prize1 img,
-#prize2 img {
-  height: 5em;
-  width: auto;
-}
-
-.col-3 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.footer-container img {
-  width: 30px;
-  height: auto;
-  margin: 0 1em;
 }
