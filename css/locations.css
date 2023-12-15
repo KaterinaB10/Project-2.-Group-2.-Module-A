@@ -235,6 +235,7 @@ h2 {
   border: 0.1em solid #d98324;
   background: #fdfdfd;
   padding: 1em;
+  outline: #d98324;
 }
 
 .pick-up-form-container input:focus {
