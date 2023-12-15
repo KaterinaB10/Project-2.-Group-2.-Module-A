@@ -44,7 +44,7 @@ FOOTERS
 }
 
 .empty-space {
-  width: 15em;
+  width: 10em;
   padding: 1em;
 }
 
@@ -63,6 +63,7 @@ FOOTERS
   font-family: "El Messiri", sans-serif;
   font-size: 1rem;
   text-transform: none;
+  font-weight: 400;
 }
 
 .nav-bar a:hover {
