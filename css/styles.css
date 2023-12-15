@@ -73,6 +73,11 @@ FOOTERS
   border-bottom: 1px solid #d98324;
 }
 
+#current-page a {
+  color: #d98324;
+  font-weight: bold;
+}
+
 /* FOOTER SECTION */
 
 footer {

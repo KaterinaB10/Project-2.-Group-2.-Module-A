@@ -285,3 +285,29 @@ h2 {
   font-size: 1em;
   font-family: "Oxygen", sans-serif;
 }
+
+.button-container a {
+  margin: 0;
+  border: 0.25em solid #d98324;
+  box-shadow: 0 0 0.18em 0 rgba(0, 0, 0, 0.25);
+  border-radius: 22.5em;
+  padding: 1em 2em;
+  font-family: "Oxygen", sans-serif;
+  color: #d98324;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.button-container a:hover,
+.button-container a:focus {
+  color: #fff;
+  background-color: #d98324;
+  border: 0.25em solid #d98324;
+}
+
+.button-container {
+  max-width: 40%;
+  margin: 0;
+}
