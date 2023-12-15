@@ -62,6 +62,7 @@ FOOTERS
   text-decoration: none;
   font-family: "El Messiri", sans-serif;
   font-size: 1rem;
+  text-transform: none;
 }
 
 .nav-bar a:hover {
