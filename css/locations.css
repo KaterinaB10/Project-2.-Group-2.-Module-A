@@ -83,7 +83,7 @@ p {
 }
 
 .section-text p {
-  margin: 2em auto;
+  margin: 2em 0 1em 0;
   text-align: center;
 }
 
@@ -244,22 +244,40 @@ h2 {
 
 /* ---- INPUT (date) SETTINGS ----- */
 
-input[type="date"]::-webkit-calendar-picker-indicator {
+.pick-up-form input[type="date"]::-webkit-calendar-picker-indicator {
   opacity: 0;
 }
 
-input[type="date"] {
+.pick-up-form input[type="date"] {
   color: #d98324;
   text-align: center;
 }
 
 /* ---- INPUT (time) SETTINGS ----- */
 
-input[type="time"]::-webkit-calendar-picker-indicator {
+.pick-up-form input[type="time"]::-webkit-calendar-picker-indicator {
   display: none;
 }
 
-input[type="time"] {
+.pick-up-form input[type="time"] {
   color: #d98324;
   text-align: center;
+}
+
+/* ---- TEXTAREA SETTINGS ----- */
+
+.pick-up-form textarea {
+  width: 100%;
+  border-radius: 25px;
+  border: 0.1em solid #d98324;
+  background: #fdfdfd;
+  padding: 1em;
+  resize: none;
+}
+
+.pick-up-form-container textarea:focus {
+  background-color: #fdfdfd;
+  color: #242d25;
+  font-size: 1em;
+  font-family: "Oxygen", sans-serif;
 }
