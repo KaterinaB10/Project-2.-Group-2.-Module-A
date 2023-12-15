@@ -34,7 +34,7 @@ header {
   align-items: center;
   text-align: center;
   border-bottom: 0.1em solid #7fb069;
-  padding-bottom: 2em;
+  padding: 6em 0 2em 0;
 }
 
 .header-container h1 {
@@ -90,6 +90,10 @@ section {
   border-bottom: 0.1em solid #7fb069;
 }
 
+.volunteer-form {
+  padding-bottom: 1em;
+}
+
 /* --- FIRST COLUMN ---  */
 
 .volunteer-col1 {
@@ -133,6 +137,7 @@ textarea {
 
 .map-container {
   border: 2px solid #1c5f22;
+  margin: 0 auto;
   width: 25em;
   height: 20em;
   text-align: center;
@@ -159,15 +164,21 @@ textarea {
 .supporters {
   color: #1c5f22;
   font-family: "El Messiri", sans-serif;
-  font-size: 0.8rem;
+  font-size: 2rem;
   font-weight: 400;
   text-align: center;
+  padding-top: 2em;
+}
+
+.supporters p {
+  padding: 0;
+  margin: 0;
 }
 
 .supporters img {
   object-fit: cover;
   margin: 2em;
-  padding: 2em;
-  width: 10em;
-  height: auto;
+  padding: 0em 2em 0 2em;
+  height: 15em;
+  width: auto;
 }
