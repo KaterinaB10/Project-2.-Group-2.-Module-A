@@ -95,6 +95,24 @@ section {
   padding-bottom: 1em;
 }
 
+.volunteer-form input {
+  color: #252925;
+  border: 2px solid #d98324;
+  border-radius: 4px;
+}
+
+.volunteer-form textarea {
+  color: #252925;
+  border: 2px solid #d98324;
+  border-radius: 4px;
+}
+
+.volunteer-form select {
+  color: #252925;
+  border: 2px solid #d98324;
+  border-radius: 4px;
+}
+
 /* --- FIRST COLUMN ---  */
 
 .volunteer-col1 {
@@ -106,6 +124,7 @@ section {
   border-left: 0.1em solid #d98324;
   border-top: 0.1em solid #d98324;
   border-bottom: 0.1em solid #d98324;
+  border-radius: 2em 0 0 2em;
 }
 
 /* --- SECOND COLUMN --- */
@@ -119,6 +138,7 @@ section {
   border-right: 0.1em solid #d98324;
   border-top: 0.1em solid #d98324;
   border-bottom: 0.1em solid #d98324;
+  border-radius: 0 2em 2em 0;
 }
 
 .volunteer-day,
@@ -175,7 +195,8 @@ textarea {
   font-size: 4rem;
   font-weight: 400;
   text-align: center;
-  padding: 2em;
+  margin: 0;
+  padding: 1em 0 0 0;
 }
 
 .celebs-para {
