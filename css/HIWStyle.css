@@ -166,6 +166,14 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  box-shadow: 1px 1px 7px #6c757d;
+  transition: all ease 1.5s;
+}
+
+.green-circle:hover,
+.orange-circle:hover {
+  scale: 115%;
+  box-shadow: 6px 6px 20px #6c757d;
 }
 
 .orange-circle {
@@ -199,6 +207,11 @@ p {
 .repurposing-logo {
   width: 5em;
   margin: 1em;
+  transition: all ease 1s;
+}
+
+.repurposing-logo:hover {
+  scale: 120%;
 }
 
 .finn-logo {
