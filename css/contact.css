@@ -34,7 +34,7 @@ header {
   align-items: center;
   text-align: center;
   border-bottom: 0.1em solid #7fb069;
-  padding-bottom: 2em;
+  padding: 6em 0 2em 0;
 }
 
 .header-container h1 {
@@ -134,7 +134,7 @@ textarea {
 .map-container {
   border: 2px solid #1c5f22;
   width: 25em;
-  height: 20em;
+  height: auto;
   text-align: center;
   overflow: hidden;
   position: relative;
