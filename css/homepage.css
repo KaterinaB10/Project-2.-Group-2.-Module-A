@@ -29,6 +29,12 @@ p {
   font-weight: 700;
 }
 
+@media (max-width: 600px) {
+  p {
+    font-size: 0.8rem;
+  }
+}
+
 a {
   font-family: "Oxygen", sans-serif;
   color: #d98324;
@@ -84,6 +90,56 @@ h1 {
   width: 100%;
 }
 
+@media (max-width: 600px) {
+  .header-container {
+    margin: 0;
+    max-width: 100%;
+    padding: 8em 0 2em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .title-container {
+    margin: 0;
+    max-width: 85%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  h1 {
+    font-weight: 400;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .main-title-second-raw {
+    margin-top: -0.45em;
+    font-size: 4.4rem;
+  }
+
+  .sub-title p {
+    margin: 0;
+    margin-top: -2.3em;
+    padding-left: 0;
+    padding: 0 0.8em;
+    font-size: 0.7rem;
+    color: #d98324;
+    text-align: center;
+  }
+
+  .main-image-container {
+    margin: 0 auto;
+    margin-top: 1em;
+    width: 80%;
+  }
+
+  .main-image-container img {
+    width: 100%;
+  }
+}
+
 /* SECTIONS */
 
 section {
@@ -102,10 +158,30 @@ h2 {
   text-align: center;
 }
 
+@media (max-width: 600px) {
+  h2 {
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .section-title-container {
+    margin: 0 auto;
+    max-width: 80%;
+    padding: 2em 0;
+  }
+}
+
 .section-content-container {
   margin: 0 auto;
   max-width: 80%;
   padding: 0 0 5em 0;
+}
+
+@media (max-width: 600px) {
+  .section-content-container {
+    padding: 0 0 2em 0;
+  }
 }
 
 .button-container a {
@@ -128,6 +204,28 @@ h2 {
   margin: 0 auto;
 }
 
+@media (max-width: 600px) {
+  .button-container a {
+    margin: 2em 0;
+    border: 0.2em solid #d98324;
+    box-shadow: 0 0 0.18em 0 rgba(0, 0, 0, 0.25);
+    border-radius: 22.5em;
+    padding: 1em 0.5em;
+  }
+
+  .button-container a:hover,
+  .button-container a:focus {
+    color: #fff;
+    background-color: #d98324;
+    border: 0.25em solid #d98324;
+  }
+
+  .button-container {
+    max-width: 100%;
+    margin: 2em auto;
+  }
+}
+
 /* SECTION --- 1 */
 .section-1 .section-content-container {
   display: flex;
@@ -145,6 +243,25 @@ h2 {
   width: 100%;
 }
 
+@media (max-width: 600px) {
+  .section-1 .section-content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .section-1 .text-container {
+    margin: 0;
+    max-width: 90%;
+    text-align: center;
+  }
+
+  .section-1 img {
+    width: 100%;
+  }
+}
+
 /* SECTION --- 2 */
 .section-2 .section-content-container {
   display: flex;
@@ -156,6 +273,30 @@ h2 {
   margin: 0;
   max-width: 50%;
   text-align: center;
+}
+
+@media (max-width: 600px) {
+  .section-2 .section-content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+  }
+
+  .section-2 .section-title-container {
+    padding-top: 2em;
+    padding-bottom: 0;
+  }
+
+  .section-2 h2 {
+    font-size: 1.5rem;
+  }
+
+  .section-2 .text-container {
+    margin: 0;
+    max-width: 90%;
+    text-align: center;
+  }
 }
 
 /* SECTION --- 3 */
@@ -183,6 +324,41 @@ h2 {
   margin: 0;
 }
 
+@media (max-width: 600px) {
+  .section-3 .section-content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .section-3 h2 {
+    font-size: 1.5rem;
+  }
+
+  .section-3 .section-title-container {
+    padding-bottom: 0;
+  }
+
+  .section-3 .image-container {
+    max-width: 90%;
+  }
+
+  .section-3 img {
+    width: 100%;
+  }
+
+  .section-3 .text-container {
+    margin: 0;
+    max-width: 90%;
+    text-align: center;
+  }
+
+  .section-3 .button-container {
+    margin: 2em auto;
+  }
+}
+
 /* SECTION --- 4 */
 .section-4 .section-content-container {
   display: flex;
@@ -194,4 +370,34 @@ h2 {
   margin: 0;
   max-width: 50%;
   text-align: center;
+}
+
+@media (max-width: 600px) {
+  .section-4 .section-content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+  }
+
+  .section-4 .section-title-container {
+    max-width: 90%;
+    padding-bottom: 0;
+  }
+
+  .section-4 .text-container {
+    margin: 0;
+    max-width: 90%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  #prize2 {
+    width: 5%;
+  }
+
+  #prize2 img {
+    width: 5%;
+  }
 }
