@@ -46,8 +46,8 @@ header {
 .header-container p {
   color: #d98324;
   font-family: "Oxygen", sans-serif;
-  font-size: 1.5rem;
-  font-weight: 400;
+  font-size: 1.2rem;
+  font-weight: 700;
 }
 
 /* --- SECTION --- */
@@ -124,7 +124,7 @@ section {
   border-left: 0.1em solid #d98324;
   border-top: 0.1em solid #d98324;
   border-bottom: 0.1em solid #d98324;
-  border-radius: 2em 0 0 2em;
+  border-radius: 1em 0 0 1em;
 }
 
 /* --- SECOND COLUMN --- */
@@ -138,7 +138,7 @@ section {
   border-right: 0.1em solid #d98324;
   border-top: 0.1em solid #d98324;
   border-bottom: 0.1em solid #d98324;
-  border-radius: 0 2em 2em 0;
+  border-radius: 0 1em 1em 0;
 }
 
 .volunteer-day,
@@ -165,6 +165,24 @@ textarea {
   text-align: center;
   margin: 0;
   border-bottom: 0.1em solid #7fb069;
+}
+
+.map-description {
+  color: #252925;
+  font-family: "Oxygen", sans-serif;
+  text-align: left;
+  padding: 0 0 0 2em;
+}
+
+.map-description h3 {
+  font-size: 1.5rem;
+}
+
+.map-description h4 {
+  font-size: 1.2rem;
+}
+.map-description ul {
+  font-size: 1rem;
 }
 
 .map-container {
