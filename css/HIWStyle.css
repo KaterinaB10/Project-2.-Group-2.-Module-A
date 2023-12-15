@@ -199,6 +199,11 @@ p {
 .repurposing-logo {
   width: 5em;
   margin: 1em;
+  transition: all ease 1s;
+}
+
+.repurposing-logo:hover {
+  scale: 120%;
 }
 
 .finn-logo {
