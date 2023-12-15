@@ -58,7 +58,7 @@ section {
 /* --- SECTION TITLE --- */
 
 .section-title-container {
-  color: #1c5f22;
+  color: #252925;
   margin: 2em;
   align-items: center;
   text-align: center;
@@ -81,7 +81,7 @@ section {
 /* --- VOLUNTEER FORM --- */
 
 .volunteer-form {
-  color: #1c5f22;
+  color: #252925;
   font-family: "Oxygen", sans-serif;
   justify-content: center;
   margin: 0 auto;
@@ -126,7 +126,7 @@ textarea {
 /* --- MAPS SECTION --- */
 
 .map {
-  color: #1c5f22;
+  color: ##252925;
   font-family: "El Messiri", sans-serif;
   font-size: 1.8rem;
   font-weight: 400;
@@ -158,12 +158,21 @@ textarea {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+}
+
+.celebs-title {
+  color: #1c5f22;
+  font-family: "El Messiri", sans-serif;
+  font-size: 4rem;
+  font-weight: 400;
+  text-align: center;
   padding: 2em;
 }
 
 .supporters {
-  color: #1c5f22;
-  font-family: "El Messiri", sans-serif;
+  color: #252925;
+  font-family: "Oxygen", sans-serif;
   font-size: 2rem;
   font-weight: 400;
   text-align: center;
