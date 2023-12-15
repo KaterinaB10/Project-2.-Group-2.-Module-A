@@ -44,6 +44,7 @@ header {
 }
 
 .header-container p {
+  color: #d98324;
   font-family: "Oxygen", sans-serif;
   font-size: 1.5rem;
   font-weight: 400;
@@ -138,7 +139,8 @@ textarea {
   font-weight: 400;
   padding: 1em;
   text-align: center;
-  margin: 0 0 0 2em;
+  margin: 0;
+  border-bottom: 0.1em solid #7fb069;
 }
 
 .map-container {
@@ -176,10 +178,10 @@ textarea {
   padding: 2em;
 }
 
-.supporters {
+.celebs-para {
   color: #252925;
   font-family: "Oxygen", sans-serif;
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: 400;
   text-align: center;
   padding-top: 2em;
@@ -194,6 +196,6 @@ textarea {
   object-fit: cover;
   margin: 2em;
   padding: 0em 2em 0 2em;
-  height: 15em;
+  height: 10em;
   width: auto;
 }
