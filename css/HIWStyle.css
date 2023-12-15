@@ -243,3 +243,95 @@ p {
 .finn-logo {
   border-radius: 50%;
 }
+
+/* FOOTER SECTION */
+
+footer {
+  background: #1c5f22;
+  color: #fdfdfd;
+}
+
+.footer-container {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 600px) {
+  .footer-container {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+.col {
+  max-width: 30%;
+  margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+  .col-3 {
+    margin-bottom: 1.7em;
+  }
+
+  .col-2 {
+    margin-bottom: 1.7em;
+  }
+}
+
+.col-title {
+  margin: 0;
+  padding: 0 0 0 2.1em;
+  margin-bottom: 0.5em;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fdfdfd;
+}
+
+.col-title p {
+  margin: 0;
+}
+
+.col-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.footer-list ul {
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.col-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 7em;
+}
+
+#prize1 img,
+#prize2 img {
+  height: 5em;
+  width: auto;
+}
+
+.col-3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-container img {
+  width: 30px;
+  height: auto;
+  margin: 0 1em;
+}
