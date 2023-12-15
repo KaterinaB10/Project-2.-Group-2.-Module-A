@@ -276,6 +276,7 @@ h2 {
   background: #fdfdfd;
   padding: 1em;
   resize: none;
+  outline: #d98324;
 }
 
 .pick-up-form-container textarea:focus {
