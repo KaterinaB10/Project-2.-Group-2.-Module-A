@@ -140,8 +140,9 @@ section {
 @media (max-width: 600px) {
   .volunteer-address textarea,
   .volunteer-work textarea {
-    width: calc(100% - 2em);
+    width: 100%;
     border: none;
+    padding: 0;
   }
 }
 
@@ -261,7 +262,7 @@ input[type="checkbox"] {
   font-family: "El Messiri", sans-serif;
   font-size: 1.8rem;
   font-weight: 400;
-  padding: 4em 0 4em 0;
+  padding: 2em 0 3em 0;
   text-align: center;
   margin: 0;
   border-bottom: 0.1em solid #7fb069;
@@ -276,7 +277,7 @@ input[type="checkbox"] {
 .map-description {
   color: #252925;
   text-align: left;
-  padding: 0 0 0 2em;
+  padding: 1em 0 0 2em;
 }
 
 .map-description h3 {
