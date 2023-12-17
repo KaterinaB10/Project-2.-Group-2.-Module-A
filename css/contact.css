@@ -52,6 +52,7 @@ header {
 
 .header-container p {
   color: #d98324;
+  text-shadow: 1px 1px #252925;
   font-family: "Oxygen", sans-serif;
   font-size: 1.2rem;
   font-weight: 700;
@@ -156,6 +157,7 @@ section {
 .tshirt img {
   width: 30em;
   height: auto;
+  border-radius: 2em;
 }
 
 @media (max-width: 600px) {
