@@ -89,6 +89,12 @@ section {
     display: flex;
     flex-direction: column;
   }
+  .volunteer-col1,
+  .volunteer-col2 {
+    width: 100%;
+    border: none;
+    padding: 1em;
+  }
 }
 
 /* --- VOLUNTEER FORM INPUTS --- */
@@ -157,11 +163,11 @@ section {
   border-radius: 2em 0 0 2em;
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .volunteer-col1 {
     width: 50%;
   }
-}
+} */
 
 textarea {
   resize: none;
@@ -181,11 +187,11 @@ textarea {
   border-radius: 0 2em 2em 0;
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .volunteer-col2 {
     width: 50%;
   }
-}
+} */
 
 .volunteer-day,
 .volunteer-time {
