@@ -63,6 +63,11 @@ header {
   background-position: top center;
   opacity: 20%;
 }
+@media (max-width: 600px) {
+  .header-container h1 {
+    background-color: #252925;
+  }
+}
 
 /* --- SECTION --- */
 
@@ -79,6 +84,7 @@ section {
   margin: 0 auto;
   padding: 1em;
   display: flex;
+  flex-wrap: wrap;
   padding: 6em 0 6em 0;
   border-bottom: 0.1em solid #7fb069;
 }
