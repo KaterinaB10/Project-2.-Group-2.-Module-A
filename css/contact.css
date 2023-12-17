@@ -267,16 +267,17 @@ input[type="checkbox"] {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  padding-bottom: 4em;
 }
 
 .celebs-title {
   color: #1c5f22;
   font-family: "El Messiri", sans-serif;
-  font-size: 4rem;
-  font-weight: 400;
+  font-size: 2rem;
+  font-weight: 800;
   text-align: center;
   margin: 0;
-  padding: 1em 0 0 0;
+  padding: 3em 0 2em 0;
 }
 
 .celebs-para {
