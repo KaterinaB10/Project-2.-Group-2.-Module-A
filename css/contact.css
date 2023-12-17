@@ -101,12 +101,6 @@ section {
     display: flex;
     flex-direction: column;
   }
-  .volunteer-col1,
-  .volunteer-col2 {
-    width: 80%;
-    border: none;
-    padding: 1em;
-  }
 }
 
 /* --- VOLUNTEER FORM INPUTS --- */
@@ -213,6 +207,15 @@ textarea {
 
 input[type="checkbox"] {
   outline: 0.1em solid #d98324;
+}
+
+@media (max-width: 600px) {
+  .volunteer-col1,
+  .volunteer-col2 {
+    width: 80%;
+    border: none;
+    padding: 1em;
+  }
 }
 
 /* --- SUBMIT BUTTON --- */
