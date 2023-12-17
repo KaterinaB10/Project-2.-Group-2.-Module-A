@@ -215,6 +215,7 @@ input[type="checkbox"] {
     width: 80%;
     border: none;
     padding: 1em;
+    border-radius: 0;
   }
 }
 
