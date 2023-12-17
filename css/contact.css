@@ -44,11 +44,23 @@ header {
   font-weight: 400;
 }
 
+@media (max-width: 600) {
+  .header-container h1 {
+    font-size: 1.5rem;
+  }
+}
+
 .header-container p {
   color: #d98324;
   font-family: "Oxygen", sans-serif;
   font-size: 1.2rem;
   font-weight: 700;
+}
+
+@media (max-width: 600) {
+  .header-container p {
+    font-size: 0.75rem;
+  }
 }
 
 .header-container::before {
@@ -125,6 +137,14 @@ section {
   padding: 1em 2em;
 }
 
+@media (max-width: 600px) {
+  .volunteer-address textarea,
+  .volunteer-work textarea {
+    width: calc(100% - 2em);
+    border: none;
+  }
+}
+
 .volunteer-form select {
   color: #252925;
   border: 2px solid #d98324;
@@ -163,12 +183,6 @@ section {
   border-radius: 2em 0 0 2em;
 }
 
-/* @media (max-width: 600px) {
-  .volunteer-col1 {
-    width: 50%;
-  }
-} */
-
 textarea {
   resize: none;
 }
@@ -186,12 +200,6 @@ textarea {
   border-bottom: 0.1em solid #d98324;
   border-radius: 0 2em 2em 0;
 }
-
-/* @media (max-width: 600px) {
-  .volunteer-col2 {
-    width: 50%;
-  }
-} */
 
 .volunteer-day,
 .volunteer-time {
