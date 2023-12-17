@@ -151,6 +151,12 @@ section {
   border-radius: 2em 0 0 2em;
 }
 
+@media (max-width: 600px) {
+  .volunteer-col1 {
+    width: 50%;
+  }
+}
+
 textarea {
   resize: none;
 }
@@ -167,6 +173,12 @@ textarea {
   border-top: 0.1em solid #d98324;
   border-bottom: 0.1em solid #d98324;
   border-radius: 0 2em 2em 0;
+}
+
+@media (max-width: 600px) {
+  .volunteer-col2 {
+    width: 50%;
+  }
 }
 
 .volunteer-day,
