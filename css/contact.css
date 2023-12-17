@@ -281,8 +281,8 @@ input[type="checkbox"] {
 }
 @media (max-width: 600px) {
   .map-container {
-    width: 12.5em;
-    height: 10em;
+    width: 1.25em;
+    height: 1em;
   }
 }
 
