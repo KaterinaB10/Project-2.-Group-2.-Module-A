@@ -53,23 +53,20 @@
 
       <section id="volunteer">
         <div class="section-container" id="booking-form">
-          <!-- --- SECTION TITLE ---     -->
-          <div class="section-title-container">
-            <h2 class="section-title">Please provide your details below.</h2>
-            <p class="section-title-para">
-              Please add any wishes regarding the type of work that you will be
-              set in the comments form.
-            </p>
-          </div>
-
           <!-- --- VOLUNTEER FORM --- -->
 
+          <!-- --- VOLUNTEER T-SHIRT --- -->
+
           <div class="volunteer-form">
+            <div class="tshirt">
+              <img src="images/tshirt.png" alt="Volunteer t-shirt" />
+            </div>
+
             <!-- --- FIRST COLUMN --- -->
 
             <div class="volunteer-col1">
               <!-- --- NAME --- -->
-              <div class="volunteer-fullname" class="volunteer-form">
+              <div class="volunteer-fullname" class="volunteer-form-data">
                 <form>
                   <label for="volunteer-fullname">Full name:</label><br />
                   <input
@@ -80,7 +77,7 @@
                 </form>
 
                 <!-- --- GENDER --- -->
-                <div class="volunteer-gender" class="volunteer-form">
+                <div class="volunteer-gender" class="volunteer-form-data">
                   <label for="volunteer-gender">Gender:</label><br />
                   <select name="volunteer-gender" id="volunteer-gender">
                     <option value="volunteer-gender" disabled selected>
@@ -96,7 +93,7 @@
 
                 <!-- --- PHONE --- -->
               </div>
-              <div class="volunteer-telephone" class="volunteer-form">
+              <div class="volunteer-telephone" class="volunteer-form-data">
                 <form>
                   <label for="volunteer-telephone">Telephone number:</label
                   ><br />
@@ -109,7 +106,7 @@
 
                 <!-- --- EMAIL --- -->
               </div>
-              <div class="volunteer-email" class="volunteer-form">
+              <div class="volunteer-email" class="volunteer-form-data">
                 <form>
                   <label for="">E-mail:</label><br />
                   <input
@@ -121,7 +118,7 @@
               </div>
 
               <!-- --- ADDRESS --- -->
-              <div class="volunteer-address" class="volunteer-form">
+              <div class="volunteer-address" class="volunteer-form-data">
                 <form>
                   <label for="volunteer-address"
                     >Please enter your address:</label
@@ -136,7 +133,7 @@
               </div>
 
               <!-- --- COMMENTS --- -->
-              <div class="volunteer-work" class="volunteer-form">
+              <div class="volunteer-work" class="volunteer-form-data">
                 <form>
                   <label for="volunteer-work"
                     >Type of work you are interested in:</label
@@ -155,7 +152,7 @@
 
             <div class="volunteer-col2">
               <!-- --- DAY --- -->
-              <div class="volunteer-day" class="volunteer-form">
+              <div class="volunteer-day" class="volunteer-form-data">
                 <p>Which day(s) can you help?</p>
                 <fieldset class="volunteer-day">
                   <div>
@@ -202,7 +199,7 @@
 
               <!-- --- TIME --- -->
 
-              <div class="volunteer-time" class="volunteer-form">
+              <div class="volunteer-time" class="volunteer-form-data">
                 <p>What time are you available?</p>
                 <fieldset class="volunteer-time">
                   <div>
@@ -236,15 +233,13 @@
       <section class="map">
         <div class="map-section-container">
           <div class="map-description">
-            <h3>Travel directions from main bus station</h3>
-            <h4>Public transport</h4>
+            <h3>Travel directions</h3>
+            <h4>Public transport:</h4>
             <ul>
-              <li>Bus:</li>
-              <li>Routes: 14, 51, 67, 600.</li>
-              <li>Bergen Light Rail:</li>
-              <li>Routes: 1, 2.</li>
+              <li>Bus Routes: 14, 51, 67, 600.</li>
+              <li>Bergen Light Rail Routes: 1, 2.</li>
             </ul>
-            <h4>By car</h4>
+            <h4>By car from the main bus station:</h4>
             <ul>
               <li>Follow Fjøsangerveien until Esso station,</li>
               <li>Turn left onto Fabrikkgaten,</li>
@@ -316,7 +311,9 @@
             /></a>
           </div>
           <div class="supporters">
-            <p class="celebs-para">Thor Haakon Bakke</p>
+            <p class="celebs-para">
+              Thor Haakon Bakke <span class="small">(Han er med på alt)</span>
+            </p>
             <a
               href="https://www.bt.no/tag/0c68e711-d665-40f1-8525-e8364278d23d/thor-haakon-bakke"
               target="_blank"

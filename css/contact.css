@@ -29,6 +29,7 @@ body {
 /* --- HEADER --- */
 
 header {
+  position: relative;
   color: #1c5f22;
   background-color: #fdfdfd;
   align-items: center;
@@ -50,33 +51,23 @@ header {
   font-weight: 700;
 }
 
+.header-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-image: url("../Images/Volunteer.jpg");
+  background-size: cover;
+  background-position: top center;
+  opacity: 20%;
+}
+
 /* --- SECTION --- */
 
 section {
   background-color: #fdfdfd;
-}
-
-/* --- SECTION TITLE --- */
-
-.section-title-container {
-  color: #252925;
-  margin: 2em;
-  align-items: center;
-  text-align: center;
-}
-
-.section-title-container h2 {
-  font-family: "El Messiri", sans-serif;
-  font-size: 1.8rem;
-  font-weight: 400;
-  padding: 0 0 0 2em;
-}
-
-.section-title-container p {
-  font-family: "Oxygen", sans-serif;
-  font-size: 1rem;
-  font-weight: 400;
-  padding: 0 0 0 1em;
 }
 
 /* --- VOLUNTEER FORM --- */
@@ -88,29 +79,54 @@ section {
   margin: 0 auto;
   padding: 1em;
   display: flex;
+  padding: 6em 0 6em 0;
   border-bottom: 0.1em solid #7fb069;
 }
 
-.volunteer-form {
-  padding-bottom: 1em;
-}
+/* --- VOLUNTEER FORM INPUTS --- */
 
 .volunteer-form input {
+  border: 2px solid #d98324;
+  border-radius: 1em;
+  padding: 0.5em 1em;
+}
+
+.volunteer-form input:focus {
   color: #252925;
   border: 2px solid #d98324;
-  border-radius: 4px;
+  border-radius: 2em;
+  padding: 1em 2em;
 }
 
 .volunteer-form textarea {
+  border: 2px solid #d98324;
+  border-radius: 1em;
+  padding: 0.5em 1em;
+}
+
+.volunteer-form textarea:focus {
   color: #252925;
   border: 2px solid #d98324;
-  border-radius: 4px;
+  border-radius: 2em;
+  padding: 1em 2em;
 }
 
 .volunteer-form select {
   color: #252925;
   border: 2px solid #d98324;
-  border-radius: 4px;
+  border-radius: 2em;
+  padding: 0.5em 1em;
+}
+
+/* --- VOLUNTEER T-SHIRT --- */
+
+.tshirt {
+  padding: 0 4em 4em 4em;
+}
+
+.tshirt img {
+  width: 30em;
+  height: auto;
 }
 
 /* --- FIRST COLUMN ---  */
@@ -124,7 +140,11 @@ section {
   border-left: 0.1em solid #d98324;
   border-top: 0.1em solid #d98324;
   border-bottom: 0.1em solid #d98324;
-  border-radius: 1em 0 0 1em;
+  border-radius: 2em 0 0 2em;
+}
+
+textarea {
+  resize: none;
 }
 
 /* --- SECOND COLUMN --- */
@@ -138,7 +158,7 @@ section {
   border-right: 0.1em solid #d98324;
   border-top: 0.1em solid #d98324;
   border-bottom: 0.1em solid #d98324;
-  border-radius: 0 1em 1em 0;
+  border-radius: 0 2em 2em 0;
 }
 
 .volunteer-day,
@@ -146,8 +166,8 @@ section {
   border: none;
 }
 
-textarea {
-  resize: none;
+input[type="checkbox"] {
+  outline: 0.1em solid #d98324;
 }
 
 /* --- MAPS SECTION --- */
@@ -161,7 +181,7 @@ textarea {
   font-family: "El Messiri", sans-serif;
   font-size: 1.8rem;
   font-weight: 400;
-  padding: 1em;
+  padding: 4em 0 4em 0;
   text-align: center;
   margin: 0;
   border-bottom: 0.1em solid #7fb069;
@@ -169,19 +189,23 @@ textarea {
 
 .map-description {
   color: #252925;
-  font-family: "Oxygen", sans-serif;
   text-align: left;
   padding: 0 0 0 2em;
 }
 
 .map-description h3 {
+  font-family: "El Messiri", sans-serif;
   font-size: 1.5rem;
+  color: #1c5f22;
 }
 
 .map-description h4 {
+  font-family: "Oxygen", sans-serif;
+  margin: 3em 0 0 0;
   font-size: 1.2rem;
 }
 .map-description ul {
+  font-family: "Oxygen", sans-serif;
   font-size: 1rem;
 }
 
@@ -242,4 +266,8 @@ textarea {
   padding: 0em 2em 3em 2em;
   height: 10em;
   width: auto;
+}
+
+.small {
+  font-size: 0.5rem;
 }
