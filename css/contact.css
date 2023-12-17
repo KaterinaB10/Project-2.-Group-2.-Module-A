@@ -44,7 +44,7 @@ header {
   font-weight: 400;
 }
 
-@media (max-width: 600) {
+@media (max-width: 600px) {
   .header-container h1 {
     font-size: 1.5rem;
   }
@@ -57,7 +57,7 @@ header {
   font-weight: 700;
 }
 
-@media (max-width: 600) {
+@media (max-width: 600px) {
   .header-container p {
     font-size: 0.75rem;
   }
@@ -178,7 +178,8 @@ section {
   border-radius: 2em 0 0 2em;
 }
 
-textarea {
+.volunteer-address textarea,
+.volunteer-work textarea {
   resize: none;
 }
 
@@ -272,7 +273,7 @@ input[type="checkbox"] {
   border-bottom: 0.1em solid #7fb069;
 }
 
-@media (max-width: 600) {
+@media (max-width: 600px) {
   .map {
     font-size: 0.9rem;
   }
@@ -290,7 +291,7 @@ input[type="checkbox"] {
   color: #1c5f22;
 }
 
-@media (max-width: 600) {
+@media (max-width: 600px) {
   .map-description h3 {
     font-size: 0.75rem;
   }
@@ -302,7 +303,7 @@ input[type="checkbox"] {
   font-size: 1.2rem;
 }
 
-media (max-width: 600) {
+@smedia (max-width: 600) {
   .map-description h4 {
     font-size: 0.6rem;
   }
