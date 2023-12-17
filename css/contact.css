@@ -91,7 +91,7 @@ section {
   }
   .volunteer-col1,
   .volunteer-col2 {
-    width: 100%;
+    width: 80%;
     border: none;
     padding: 1em;
   }
@@ -145,7 +145,7 @@ section {
 
 @media (max-width: 600px) {
   .tshirt img {
-    width: 3em;
+    width: 10em;
   }
 }
 
