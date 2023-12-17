@@ -299,17 +299,17 @@ input[type="checkbox"] {
   overflow: hidden;
   position: relative;
 }
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .map-container {
     width: 5em;
     height: 4em;
   }
-}
+} */
 
 .map-container iframe {
   margin: 0 auto;
-  width: 100%;
-  height: 100%;
+  width: 5em;
+  height: 5em;
   border: none;
 }
 
