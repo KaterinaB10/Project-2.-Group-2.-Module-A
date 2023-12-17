@@ -83,6 +83,13 @@ section {
   border-bottom: 0.1em solid #7fb069;
 }
 
+@media (max-width: 600px) {
+  .volunteer-form {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 /* --- VOLUNTEER FORM INPUTS --- */
 
 .volunteer-form input {
@@ -207,6 +214,13 @@ input[type="checkbox"] {
 
 .map-section-container {
   display: flex;
+}
+
+@media (max-width: 600px) {
+  .map-section-container {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .map {
