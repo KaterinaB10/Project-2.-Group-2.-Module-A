@@ -257,7 +257,7 @@ input[type="checkbox"] {
 }
 
 .map {
-  color: ##252925;
+  color: #252925;
   font-family: "El Messiri", sans-serif;
   font-size: 1.8rem;
   font-weight: 400;
@@ -265,6 +265,12 @@ input[type="checkbox"] {
   text-align: center;
   margin: 0;
   border-bottom: 0.1em solid #7fb069;
+}
+
+@media (max-width: 600) {
+  .map {
+    font-size: 0.9rem;
+  }
 }
 
 .map-description {
@@ -279,19 +285,37 @@ input[type="checkbox"] {
   color: #1c5f22;
 }
 
+@media (max-width: 600) {
+  .map-description h3 {
+    font-size: 0.75rem;
+  }
+}
+
 .map-description h4 {
   font-family: "Oxygen", sans-serif;
   margin: 3em 0 0 0;
   font-size: 1.2rem;
 }
+
+media (max-width: 600) {
+  .map-description h4 {
+    font-size: 0.6rem;
+  }
+}
+
 .map-description ul {
   font-family: "Oxygen", sans-serif;
   font-size: 1rem;
 }
 
+media (max-width: 600) {
+  .map-description ul {
+    font-size: 0.5rem;
+  }
+}
+
 .map-container {
   color: #1c5f22;
-  border: 2px solid #1c5f22;
   margin: 0 auto;
   width: 25em;
   height: 20em;
@@ -299,17 +323,17 @@ input[type="checkbox"] {
   overflow: hidden;
   position: relative;
 }
-/* @media (max-width: 600px) {
+@media (max-width: 600px) {
   .map-container {
     width: 5em;
     height: 4em;
   }
-} */
+}
 
 .map-container iframe {
   margin: 0 auto;
-  width: 5em;
-  height: 5em;
+  width: 15em;
+  height: 15em;
   border: none;
 }
 
