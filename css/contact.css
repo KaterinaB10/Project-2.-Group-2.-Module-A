@@ -63,11 +63,6 @@ header {
   background-position: top center;
   opacity: 20%;
 }
-@media (max-width: 600px) {
-  .header-container h1 {
-    background-color: #252925;
-  }
-}
 
 /* --- SECTION --- */
 
@@ -271,6 +266,12 @@ input[type="checkbox"] {
   text-align: center;
   overflow: hidden;
   position: relative;
+}
+@media (max-width: 600px) {
+  .map-container {
+    width: 12.5em;
+    height: 10em;
+  }
 }
 
 .map-container iframe {
