@@ -42,7 +42,7 @@ header {
   font-family: "El Messiri", sans-serif;
   font-size: 3rem;
   font-weight: 400;
-  text-shadow: 1px 1px #252925;
+  text-shadow: 2px 2px 5px #252925;
 }
 
 @media (max-width: 600px) {
@@ -53,7 +53,7 @@ header {
 
 .header-container p {
   color: #d98324;
-  text-shadow: 1px 1px #252925;
+  text-shadow: 2px 2px 5px #252925;
   font-family: "Oxygen", sans-serif;
   font-size: 1.2rem;
   font-weight: 700;
