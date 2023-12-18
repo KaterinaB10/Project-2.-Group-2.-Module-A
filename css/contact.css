@@ -137,7 +137,6 @@ section {
   .volunteer-address textarea,
   .volunteer-work textarea {
     width: 100%;
-    border: none;
     padding: 0;
   }
 }
