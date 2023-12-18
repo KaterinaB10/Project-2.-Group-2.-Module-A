@@ -42,6 +42,7 @@ header {
   font-family: "El Messiri", sans-serif;
   font-size: 3rem;
   font-weight: 400;
+  text-shadow: 2px 2px 5px #fdfdfd;
 }
 
 @media (max-width: 600px) {
@@ -52,7 +53,7 @@ header {
 
 .header-container p {
   color: #d98324;
-  text-shadow: 1px 1px #252925;
+  text-shadow: 2px 2px 5px #fdfdfd;
   font-family: "Oxygen", sans-serif;
   font-size: 1.2rem;
   font-weight: 700;
@@ -90,7 +91,6 @@ section {
   font-family: "Oxygen", sans-serif;
   justify-content: center;
   margin: 0 auto;
-  padding: 1em;
   display: flex;
   flex-wrap: wrap;
   padding: 6em 0 6em 0;
@@ -136,7 +136,6 @@ section {
   .volunteer-address textarea,
   .volunteer-work textarea {
     width: 100%;
-    border: none;
     padding: 0;
   }
 }
@@ -294,6 +293,9 @@ input[type="checkbox"] {
 }
 
 @media (max-width: 600px) {
+  .map-description {
+  }
+
   .map-description h3 {
     font-size: 0.75rem;
   }
@@ -305,7 +307,7 @@ input[type="checkbox"] {
   font-size: 1.2rem;
 }
 
-@smedia (max-width: 600) {
+@media (max-width: 600px) {
   .map-description h4 {
     font-size: 0.6rem;
   }
@@ -316,7 +318,7 @@ input[type="checkbox"] {
   font-size: 1rem;
 }
 
-media (max-width: 600) {
+@media (max-width: 600px) {
   .map-description ul {
     font-size: 0.5rem;
   }
@@ -333,8 +335,8 @@ media (max-width: 600) {
 }
 @media (max-width: 600px) {
   .map-container {
-    width: 5em;
-    height: 4em;
+    width: 100%;
+    height: 100%;
   }
 }
 
@@ -348,8 +350,8 @@ media (max-width: 600) {
 @media (max-width: 600px) {
   .map-container iframe {
     margin: 0 auto;
-    width: 5em;
-    height: 5em;
+    width: 100%;
+    height: 100%;
   }
 }
 
