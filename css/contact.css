@@ -308,7 +308,7 @@ input[type="checkbox"] {
   font-size: 1.2rem;
 }
 
-@media (max-width: 600) {
+@media (max-width: 600px) {
   .map-description h4 {
     font-size: 0.6rem;
   }
@@ -319,7 +319,7 @@ input[type="checkbox"] {
   font-size: 1rem;
 }
 
-@media (max-width: 600) {
+@media (max-width: 600px) {
   .map-description ul {
     font-size: 0.5rem;
   }
