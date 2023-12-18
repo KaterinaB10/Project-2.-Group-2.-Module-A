@@ -162,6 +162,7 @@ section {
 @media (max-width: 600px) {
   .tshirt img {
     width: 10em;
+    justify-content: center;
   }
 }
 
