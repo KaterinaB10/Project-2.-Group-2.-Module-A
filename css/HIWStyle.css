@@ -35,7 +35,6 @@ h3 {
 }
 
 header p {
-  font-family: ;
   color: #d98324;
   margin-top: 0;
   margin-bottom: 3em;
@@ -269,10 +268,18 @@ p {
   .timeline-small {
     display: none;
   }
+
+  .repurposing-small-screen {
+    display: none;
+  }
 }
 
 @media (max-width: 750px) {
   #timeline {
+    display: none;
+  }
+
+  .repurposing-big-screen {
     display: none;
   }
 
@@ -284,4 +291,20 @@ p {
   }
 
   /* circle section */
+
+  .circle-container {
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+  }
+
+  /* Repurposing section */
+  .repurposing-section {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .repurposing-logo {
+    margin: 0.5em;
+  }
 }
