@@ -40,7 +40,7 @@ footer {
 
 @media (max-width: 600px) {
   .footer-container {
-    max-width: 100%;
+    max-width: 80%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -62,6 +62,9 @@ footer {
     margin-bottom: 1.7em;
     flex-direction: column;
   }
+  .col {
+    max-width: 100%;
+  }
 }
 
 .col-title {
@@ -82,11 +85,6 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: left;
-}
-
-@madia (max-width: 600px)
-.col {
-  max-width: 100%;
 }
 
 .footer-list ul {
@@ -120,6 +118,7 @@ ul {
 
 .footer-container img {
   width: 30px;
+  max-width: 100%;
   height: auto;
   margin: 0 1em;
 }
