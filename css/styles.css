@@ -121,8 +121,11 @@ ul {
     margin-bottom: 1.7em;
     flex-direction: column;
   }
+
+  .col1 {
+    flex-direction: column;
+  }
   .col {
     max-width: 100%;
-    flex-direction: column;
   }
 }
