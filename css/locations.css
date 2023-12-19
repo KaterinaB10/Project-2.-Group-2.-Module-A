@@ -151,7 +151,7 @@ input[type="checkbox"] {
   display: none;
 }
 
-label,
+.expander label,
 .expended-content p {
   margin: 0;
   padding: 1em;
