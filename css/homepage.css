@@ -140,7 +140,7 @@ h1 {
   }
 }
 
-/* SECTIONS */
+/* SECTIONS (same settings for all sections)*/
 
 section {
   border-top: 0.05em solid #7fb069;
@@ -389,15 +389,5 @@ h2 {
     margin: 0;
     max-width: 90%;
     text-align: center;
-  }
-}
-
-@media (max-width: 600px) {
-  #prize2 {
-    width: 5%;
-  }
-
-  #prize2 img {
-    width: 5%;
   }
 }
