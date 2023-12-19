@@ -22,7 +22,8 @@ h2 {
 }
 
 h1 {
-  padding: 1.7em 0 0.5em 0;
+  padding-top: 1.7em;
+  margin-bottom: 0;
 }
 
 h2 {
@@ -31,6 +32,13 @@ h2 {
 
 h3 {
   font-size: 1.5rem;
+}
+
+header p {
+  color: #d98324;
+  margin-top: 0;
+  margin-bottom: 3em;
+  font-family: "El Messiri", sans-serif;
 }
 
 .circle-container h3,
@@ -63,6 +71,47 @@ p {
   display: flex;
   background-color: #1c5f22;
 }
+
+/* Timeline Container for small timeline*/
+.timeline-small {
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* Outer Layer with the timeline border */
+
+/* Card container */
+.timeline-small-card {
+  position: relative;
+  margin: 20px auto;
+  padding: 10px;
+  background: #1c5f22;
+  color: #fdfdfd;
+  border-radius: 8px;
+  max-width: 400px;
+  border-bottom: 4px solid #d98324;
+}
+
+/* Information about the timeline */
+.timeline-small-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Title of the card */
+.timeline-small-title {
+  color: #fdfdfd;
+  position: relative;
+}
+
+.timeline-small a {
+  color: #fdfdfd;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Big timeline */
 
 .tl-item {
   transform: translate3d(0, 0, 0);
@@ -213,4 +262,49 @@ p {
 
 .finn-logo {
   border-radius: 50%;
+}
+
+@media (min-width: 750px) {
+  .timeline-small {
+    display: none;
+  }
+
+  .repurposing-small-screen {
+    display: none;
+  }
+}
+
+@media (max-width: 750px) {
+  #timeline {
+    display: none;
+  }
+
+  .repurposing-big-screen {
+    display: none;
+  }
+
+  /* Text */
+
+  h1,
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  /* circle section */
+
+  .circle-container {
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+  }
+
+  /* Repurposing section */
+  .repurposing-section {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .repurposing-logo {
+    margin: 0.5em;
+  }
 }

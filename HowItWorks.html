@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="css/navbar.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/HIWStyle.css" />
     <meta charset="UTF-8" />
@@ -25,7 +26,7 @@
     <!-- Nav-bar -->
 
     <nav class="nav-header">
-      <img class="logo" src="images/Logo.svg" alt="" />
+      <img class="logo" src="images/Logo.svg" alt="Textile Pod logo" />
       <ul class="nav-bar">
         <li><a href="index.html">Home</a></li>
         <li><a href="HowItWorks.html">How it works</a></li>
@@ -33,9 +34,24 @@
         <li><a href="locations.html">Locations</a></li>
       </ul>
       <div class="empty-space"></div>
+      <div class="collapsible-menu">
+        <input type="checkbox" id="menu" />
+        <label for="menu"></label>
+        <div class="menu-content">
+          <ul class="hamburger-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="HowItWorks.html">How it works</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+            <li><a href="locations.html">Locations</a></li>
+          </ul>
+        </div>
+      </div>
     </nav>
 
-    <header><h1>What happens with your clothes?</h1></header>
+    <header>
+      <h1>What happens with your clothes?</h1>
+      <p>How it works, step by step!</p>
+    </header>
 
     <!-- TIMELINE -->
 
@@ -113,6 +129,61 @@
       </div>
     </section>
 
+    <!-- Timeline for small screens -->
+    <div class="timeline-small">
+      <div class="timeline-small-outer">
+        <div class="timeline-small-card">
+          <div class="timeline-small-info">
+            <h3 class="timeline-small-title">Separate</h3>
+            <p>
+              Ensure that textiles are kept separate from toys and other
+              miscellaneous items. <br />
+              <br />
+              Items NOT Accepted: Mattresses, Couch Cushions, Lawn Furniture
+              Cushions, Foam Products (Mattress Pads, etc), Carpet Remnants, and
+              Rugs
+            </p>
+          </div>
+        </div>
+        <div class="timeline-small-card">
+          <div class="timeline-small-info">
+            <h3 class="timeline-small-title">Clean and dry</h3>
+            <p>
+              Please ensure that your textiles are properly cleaned and
+              completely dry.
+            </p>
+          </div>
+        </div>
+        <div class="timeline-small-card">
+          <div class="timeline-small-info">
+            <h3 class="timeline-small-title">Nearest Pod</h3>
+            <p>
+              Locate your closest Pod. Discover its location by clicking
+              <a href="locations.html">HERE</a>
+            </p>
+          </div>
+        </div>
+        <div class="timeline-small-card">
+          <div class="timeline-small-info">
+            <h3 class="timeline-small-title">Place in Pod</h3>
+            <p>
+              Place your belongings into the designated Pod or schedule a
+              pickup.
+            </p>
+          </div>
+        </div>
+        <div class="timeline-small-card">
+          <div class="timeline-small-info">
+            <h3 class="timeline-small-title">Separated and transported</h3>
+            <p>
+              The clothes are sorted and transported to dedicated stations for
+              reuse and recycling.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Sell or recycle section -->
 
     <section>
@@ -141,47 +212,77 @@
 
     <section>
       <h2>Methods for repurposing</h2>
+
+      <!-- Sell your clothes -->
       <div class="repurposing-section">
-        <img class="repurposing-img" src="Images/SellClothes.svg" alt="" />
+        <img
+          class="repurposing-img"
+          src="Images/SellClothes.svg"
+          alt="Cartoon caracters designing clothes"
+        />
         <div class="text-and-logo-section">
           <h3>Sell your clothes</h3>
           <a href="https://www.finn.no/" target="_blank"
             ><img
               class="repurposing-logo finn-logo"
               src="Images/finnNO.jpg"
-              alt=""
+              alt=">Finn.no logo"
           /></a>
           <a href="https://www.facebook.com/" target="_blank"
             ><img
               class="repurposing-logo"
               src="Images/Facebook Logo.png.webp"
-              alt=""
+              alt="Facebook logo"
           /></a>
         </div>
       </div>
+
+      <!-- Donate your clothes -->
+
       <div class="repurposing-section">
+        <img
+          class="repurposing-img repurposing-small-screen"
+          src="Images/DonateClothes.svg"
+          alt="Cartoon
+      caracters putting clothes in a box"
+        />
         <div class="text-and-logo-section">
           <h3>Donate your clothes</h3>
           <a
             href="https://www2.hm.com/no_no/baerekraft-hos-hm.html"
             target="_blank"
-            ><img class="repurposing-logo" src="Images/H&M-Logo.svg.png" alt=""
+            ><img
+              class="repurposing-logo"
+              src="Images/H&M-Logo.svg.png"
+              alt="H&M logo"
           /></a>
           <a href="https://www.fretex.no/" target="_blank"
             ><img
               class="repurposing-logo"
               src="Images/frelsesarmeen.jpg"
-              alt=""
+              alt="Frelsesarmeen logo"
           /></a>
         </div>
-        <img class="repurposing-img" src="Images/DonateClothes.svg" alt="" />
+        <img
+          class="repurposing-img repurposing-big-screen"
+          src="Images/DonateClothes.svg"
+          alt="Cartoon
+        caracters putting clothes in a box"
+        />
       </div>
+
+      <!-- Recycle your clothes -->
+
       <div class="repurposing-section">
-        <img class="repurposing-img" src="Images/RecycleClothes.svg" alt="" />
+        <img
+          class="repurposing-img"
+          src="Images/RecycleClothes.svg"
+          alt="Cartoon caracters watching a t-shirt with a recycle logo on"
+        />
         <div class="text-and-logo-section">
           <h3>Recycle your clothes</h3>
           <a href="https://bir.no/" target="_blank"
-            ><img class="repurposing-logo" src="Images/bir.svg" alt=""
+            ><img class="repurposing-logo" src="Images/bir.svg" alt="Bir logo"
           /></a>
         </div>
       </div>

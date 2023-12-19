@@ -1,0 +1,132 @@
+/* NAV BAR */
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1em;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  background: #fdfdfd;
+  box-shadow: 1px 1px 5px #6c757d;
+}
+
+@media (max-width: 700px) {
+  .nav-header {
+    width: 100%;
+  }
+
+  .empty-space {
+    display: none;
+  }
+  .nav-bar {
+    padding-right: 4em;
+  }
+}
+
+@media (max-width: 500px) {
+  .nav-bar {
+    visibility: hidden;
+  }
+}
+
+/* Company logo */
+
+.logo {
+  width: 7em;
+  padding: 1em;
+}
+
+.empty-space {
+  width: 10em;
+  padding: 1em;
+}
+
+/* Collapsible menu */
+
+.collapsible-menu {
+  background-color: #fdfdfd;
+  padding: 0 1em;
+  position: absolute;
+  right: 1em;
+  top: 1.3em;
+  margin-right: 0.5em;
+}
+.collapsible-menu ul {
+  list-style-type: none;
+}
+.collapsible-menu a {
+  display: block;
+  text-decoration: none;
+  color: #252925;
+}
+
+.hamburger-list li {
+  padding: 1em 0;
+}
+
+.menu-content {
+  font-family: "Oxygen", sans-serif;
+  max-height: 0;
+  overflow: hidden;
+  position: relative;
+  bottom: 0em;
+}
+
+.collapsible-menu label {
+  height: 1em;
+  font-size: 3rem;
+  display: block;
+  cursor: pointer;
+  background: url(../images/menu.png) no-repeat;
+  background-size: contain;
+}
+
+.collapsible-menu input:checked ~ .menu-content {
+  max-height: 100%;
+}
+
+.collapsible-menu input:checked + label {
+  background-image: url(../images/close.png);
+  background-size: contain;
+}
+
+.collapsible-menu input#menu {
+  display: none;
+}
+
+/* Navigation items */
+
+.nav-bar {
+  display: flex;
+  list-style: none;
+  gap: 1.5em;
+  font-family: "El Messiri", sans-serif;
+}
+
+.nav-bar a {
+  color: #1c5f22;
+  text-decoration: none;
+  font-family: "El Messiri", sans-serif;
+  font-size: 1rem;
+  text-transform: none;
+  font-weight: 400;
+}
+
+.nav-bar a:hover {
+  color: #d98324;
+  font-weight: bold;
+  border-bottom: 1px solid #d98324;
+}
+
+#current-page a {
+  color: #d98324;
+  font-weight: bold;
+}
+
+@media (min-width: 500px) {
+  .collapsible-menu {
+    display: none;
+  }
+}

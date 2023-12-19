@@ -23,61 +23,6 @@ FOOTERS
 
 */
 
-/* NAV BAR */
-.nav-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 1em;
-  width: 100%;
-  position: fixed;
-  z-index: 2;
-  top: 0;
-  background: #fdfdfd;
-  box-shadow: 1px 1px 5px #6c757d;
-}
-
-/* Company logo */
-
-.logo {
-  width: 7em;
-  padding: 1em;
-}
-
-.empty-space {
-  width: 10em;
-  padding: 1em;
-}
-
-/* Navigation items */
-
-.nav-bar {
-  display: flex;
-  list-style: none;
-  gap: 1.5em;
-  font-family: "El Messiri", sans-serif;
-}
-
-.nav-bar a {
-  color: #1c5f22;
-  text-decoration: none;
-  font-family: "El Messiri", sans-serif;
-  font-size: 1rem;
-  text-transform: none;
-  font-weight: 400;
-}
-
-.nav-bar a:hover {
-  color: #d98324;
-  font-weight: bold;
-  border-bottom: 1px solid #d98324;
-}
-
-#current-page a {
-  color: #d98324;
-  font-weight: bold;
-}
-
 /* FOOTER SECTION */
 
 footer {
