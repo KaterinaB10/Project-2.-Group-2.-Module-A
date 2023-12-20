@@ -70,7 +70,6 @@
   list-style-type: none;
   background-color: #fdfdfd;
   width: 100%;
-  margin-top: 15em;
 }
 .collapsible-menu a {
   width: 100%;
@@ -80,11 +79,14 @@
   text-transform: none;
   font-weight: 400;
   padding: 0 1em;
+  display: block;
+  cursor: pointer;
+  position: relative;
+  padding: 0.5em 1em;
 }
 
 .hamburger-list li {
   width: 100%;
-  padding: 1em 0;
 }
 
 .menu-content {
@@ -92,7 +94,7 @@
   font-weight: 400;
   text-decoration: none;
   text-transform: none;
-  max-height: 0;
+  height: 0;
   overflow: hidden;
   position: relative;
   bottom: 0em;
@@ -109,13 +111,13 @@
 }
 
 .collapsible-menu input:checked ~ .menu-content {
-  max-height: 100%;
+  overflow: visible;
 }
 
 .collapsible-menu input:checked + label {
   background-image: url(../images/close.png);
   background-size: 20%;
-  background-position: right;
+  background-position: bottom right;
 }
 
 .collapsible-menu input#menu {
