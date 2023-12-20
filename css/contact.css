@@ -38,6 +38,11 @@ header {
   padding: 6em 0 2em 0;
 }
 
+.header-container {
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+
 .header-container h1 {
   font-family: "El Messiri", sans-serif;
   font-size: 3rem;
@@ -82,25 +87,37 @@ header {
 
 section {
   background-color: #fdfdfd;
+  border-bottom: 0.1em solid #7fb069;
 }
 
 /* --- VOLUNTEER FORM --- */
 
 .volunteer-form {
+  max-width: 90%;
   color: #252925;
   font-family: "Oxygen", sans-serif;
-  justify-content: center;
   margin: 0 auto;
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
   padding: 6em 0 6em 0;
-  border-bottom: 0.1em solid #7fb069;
+}
+
+.columns {
+  display: flex;
+  justify-content: center;
 }
 
 @media (max-width: 600px) {
   .volunteer-form {
     display: flex;
     flex-direction: column;
+    align-items: center;
+  }
+
+  .columns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -150,18 +167,27 @@ section {
 /* --- VOLUNTEER T-SHIRT --- */
 
 .tshirt {
-  padding: 0 4em 4em 4em;
+  padding: 0;
+  max-width: 40%;
 }
 
 .tshirt img {
-  width: 30em;
+  width: 100%;
   height: auto;
   border-radius: 2em;
 }
 
 @media (max-width: 600px) {
+  .tshirt {
+    padding: 0;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
   .tshirt img {
-    width: 10em;
+    width: 15em;
+    padding: 0;
+    margin: 0;
   }
 }
 
@@ -169,7 +195,7 @@ section {
 
 .volunteer-col1 {
   background-color: #7fb069;
-  width: 25%;
+  width: 40%;
   display: flex;
   flex-direction: column;
   padding: 2em;
@@ -182,13 +208,14 @@ section {
 .volunteer-address textarea,
 .volunteer-work textarea {
   resize: none;
+  max-width: 80%;
 }
 
 /* --- SECOND COLUMN --- */
 
 .volunteer-col2 {
   background-color: #7fb069;
-  width: 15%;
+  width: 35%;
   display: flex;
   flex-direction: column;
   padding: 2em;
