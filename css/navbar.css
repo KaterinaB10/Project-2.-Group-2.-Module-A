@@ -16,7 +16,7 @@
   .nav-header {
     width: 100%;
     padding: 0;
-    height: 15%;
+    height: 13%;
   }
 
   .empty-space {
@@ -44,6 +44,7 @@
 @media (max-width: 700px) {
   .logo {
     width: 30%;
+    padding: 0 1em;
   }
 }
 
@@ -59,7 +60,6 @@
   padding: 0 1em;
   position: fixed;
   right: 10%;
-  top: 2%;
   width: 40%;
   /* position: absolute;
   right: 1em;
@@ -77,6 +77,7 @@
   color: #252925;
   text-transform: none;
   font-weight: 400;
+  padding: 0 1em;
 }
 
 .hamburger-list li {
@@ -101,7 +102,7 @@
   display: block;
   cursor: pointer;
   background: url(../images/menu.png) no-repeat;
-  background-size: 30%;
+  background-size: 20%;
   background-position: right;
 }
 
@@ -111,7 +112,7 @@
 
 .collapsible-menu input:checked + label {
   background-image: url(../images/close.png);
-  background-size: 30%;
+  background-size: 20%;
   background-position: right;
 }
 
@@ -126,6 +127,7 @@
   list-style: none;
   gap: 1.5em;
   font-family: "El Messiri", sans-serif;
+  margin: 0;
 }
 
 .nav-bar a {
