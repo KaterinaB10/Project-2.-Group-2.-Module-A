@@ -110,19 +110,23 @@ ul {
 
 @media (max-width: 600px) {
   .footer-container {
-    max-width: 50%;
+    max-width: 100%;
   }
   .col-3 {
+    max-width: 100%;
     margin-bottom: 1.7em;
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .col-2 {
     margin-bottom: 1.7em;
     flex-direction: column;
   }
+
+  .col1 {
+    flex-direction: column;
+  }
   .col {
     max-width: 100%;
-    flex-direction: column;
   }
 }
