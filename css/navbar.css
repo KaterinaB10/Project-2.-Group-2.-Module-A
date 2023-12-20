@@ -43,6 +43,7 @@
 
 @media (max-width: 700px) {
   .logo {
+    position: static;
     width: 30%;
     padding: 1em;
   }
