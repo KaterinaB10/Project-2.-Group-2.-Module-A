@@ -55,29 +55,40 @@
 /* Collapsible menu */
 
 .collapsible-menu {
-  background-color: #fdfdfd;
+  /* background-color: #fdfdfd; */
   padding: 0 1em;
   position: fixed;
-  right: 0%;
+  right: 10%;
+  top: 2%;
+  width: 40%;
   /* position: absolute;
   right: 1em;
   top: 1.3em; */
 }
 .collapsible-menu ul {
   list-style-type: none;
+  background-color: #fdfdfd;
+  width: 100%;
 }
 .collapsible-menu a {
+  width: 100%;
   display: block;
   text-decoration: none;
   color: #252925;
+  text-transform: none;
+  font-weight: 400;
 }
 
 .hamburger-list li {
+  width: 100%;
   padding: 1em 0;
 }
 
 .menu-content {
   font-family: "Oxygen", sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: none;
   max-height: 0;
   overflow: hidden;
   position: relative;
@@ -90,7 +101,8 @@
   display: block;
   cursor: pointer;
   background: url(../images/menu.png) no-repeat;
-  background-size: contain;
+  background-size: 30%;
+  background-position: right;
 }
 
 .collapsible-menu input:checked ~ .menu-content {
@@ -99,7 +111,8 @@
 
 .collapsible-menu input:checked + label {
   background-image: url(../images/close.png);
-  background-size: contain;
+  background-size: 30%;
+  background-position: right;
 }
 
 .collapsible-menu input#menu {
