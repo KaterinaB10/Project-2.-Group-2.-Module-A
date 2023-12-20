@@ -290,18 +290,21 @@ p {
     font-size: 2.5rem;
   }
 
-  .orange-circle,
-  .green-circle {
-    height: 350px;
-    width: 350px;
+  h1 {
+    padding-top: 2.5em;
   }
-
   /* circle section */
 
   .circle-container {
     flex-direction: column;
     gap: 2em;
     align-items: center;
+  }
+
+  .orange-circle,
+  .green-circle {
+    height: 350px;
+    width: 350px;
   }
 
   /* Repurposing section */
