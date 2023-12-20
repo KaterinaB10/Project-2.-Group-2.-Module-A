@@ -111,7 +111,10 @@ ul {
 @media (max-width: 600px) {
   .footer-container {
     max-width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
   }
+
   .col-3 {
     max-width: 100%;
     margin-bottom: 1.7em;
@@ -120,7 +123,17 @@ ul {
 
   .col-2 {
     margin-bottom: 1.7em;
-    flex-direction: column;
+    flex-direction: raw;
+  }
+
+  #prize1 img {
+    width: 60%;
+    height: 100%;
+  }
+
+  #prize2 img {
+    width: 100%;
+    height: 100%;
   }
 
   .col1 {
