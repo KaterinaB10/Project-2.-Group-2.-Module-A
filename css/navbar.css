@@ -16,7 +16,7 @@
   .nav-header {
     width: 100%;
     padding: 0;
-    height: 7%;
+    height: auto;
   }
 
   .empty-space {
@@ -37,7 +37,7 @@
 /* Company logo */
 
 .logo {
-  width: 7em;
+  width: 5em;
   padding: 1em;
 }
 
