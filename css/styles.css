@@ -124,16 +124,21 @@ ul {
   .col-2 {
     margin-bottom: 1.7em;
     flex-direction: raw;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   #prize1 img {
     width: 60%;
     height: 100%;
+    margin: 0;
   }
 
   #prize2 img {
     width: 100%;
     height: 100%;
+    margin: 0;
   }
 
   .col1 {
