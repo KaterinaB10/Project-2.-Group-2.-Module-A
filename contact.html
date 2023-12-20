@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- --- Google fonts ---  -->
-    <link rel="icon" type="image/x-icon" href="" />
+    <link rel="icon" type="image/x-icon" href="./images/Favicon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -15,11 +15,10 @@
       rel="stylesheet"
     />
 
-    <title>Textile POD Bergen Contact</title>
-    <link rel="stylesheet" href="css/navbar.css" />
+    <title>POD Contact</title>
+    <link rel="stylesheet" href="./css/navbar.css" />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/contact.css" />
-    <link rel="icon" type="image/x-icon" href="" />
   </head>
 
   <body>
@@ -72,170 +71,187 @@
 
           <div class="volunteer-form">
             <div class="tshirt">
-              <img src="images/tshirt2.png" alt="Volunteer t-shirt" />
+              <img src="./images/tshirt2.png" alt="Volunteer t-shirt" />
             </div>
 
             <!-- --- FIRST COLUMN --- -->
+            <div class="columns">
+              <div class="volunteer-col1">
+                <!-- --- NAME --- -->
+                <div class="volunteer-fullname" class="volunteer-form-data">
+                  <form>
+                    <label for="volunteer-fullname">Full name:</label><br />
+                    <input
+                      type="text"
+                      id="volunteer-fullname"
+                      name="volunteer-fullname"
+                    />
+                  </form>
 
-            <div class="volunteer-col1">
-              <!-- --- NAME --- -->
-              <div class="volunteer-fullname" class="volunteer-form-data">
-                <form>
-                  <label for="volunteer-fullname">Full name:</label><br />
-                  <input
-                    type="text"
-                    id="volunteer-fullname"
-                    name="volunteer-fullname"
-                  />
-                </form>
+                  <!-- --- GENDER --- -->
+                  <div class="volunteer-gender" class="volunteer-form-data">
+                    <label for="volunteer-gender">Gender:</label><br />
+                    <select name="volunteer-gender" id="volunteer-gender">
+                      <option value="volunteer-gender" disabled selected>
+                        -
+                      </option>
+                      <option value="male">Male</option>
+                      <option value="female">Female</option>
+                      <option value="trans">Transgender</option>
+                      <option value="non-co">Non-binary/non-conforming</option>
+                      <option value="noanswer">Would rather not say</option>
+                    </select>
+                  </div>
 
-                <!-- --- GENDER --- -->
-                <div class="volunteer-gender" class="volunteer-form-data">
-                  <label for="volunteer-gender">Gender:</label><br />
-                  <select name="volunteer-gender" id="volunteer-gender">
-                    <option value="volunteer-gender" disabled selected>
-                      -
-                    </option>
-                    <option value="male">Male</option>
-                    <option value="female">Female</option>
-                    <option value="trans">Transgender</option>
-                    <option value="non-co">Non-binary/non-conforming</option>
-                    <option value="noanswer">Would rather not say</option>
-                  </select>
+                  <!-- --- PHONE --- -->
+                </div>
+                <div class="volunteer-telephone" class="volunteer-form-data">
+                  <form>
+                    <label for="volunteer-telephone">Telephone number:</label
+                    ><br />
+                    <input
+                      type="text"
+                      id="volunteer-telephone"
+                      name="volunteer-telephone"
+                    />
+                  </form>
+
+                  <!-- --- EMAIL --- -->
+                </div>
+                <div class="volunteer-email" class="volunteer-form-data">
+                  <form>
+                    <label for="">E-mail:</label><br />
+                    <input
+                      type="email"
+                      id="volunteer-email"
+                      name="volunteer-email"
+                    />
+                  </form>
                 </div>
 
-                <!-- --- PHONE --- -->
-              </div>
-              <div class="volunteer-telephone" class="volunteer-form-data">
-                <form>
-                  <label for="volunteer-telephone">Telephone number:</label
-                  ><br />
-                  <input
-                    type="text"
-                    id="volunteer-telephone"
-                    name="volunteer-telephone"
-                  />
-                </form>
+                <!-- --- ADDRESS --- -->
+                <div class="volunteer-address" class="volunteer-form-data">
+                  <form>
+                    <label for="volunteer-address"
+                      >Please enter your address:</label
+                    ><br />
+                    <textarea
+                      id="volunteer-address"
+                      name="volunteer-address"
+                      cols="40"
+                      rows="5"
+                    ></textarea>
+                  </form>
+                </div>
 
-                <!-- --- EMAIL --- -->
-              </div>
-              <div class="volunteer-email" class="volunteer-form-data">
-                <form>
-                  <label for="">E-mail:</label><br />
-                  <input
-                    type="email"
-                    id="volunteer-email"
-                    name="volunteer-email"
-                  />
-                </form>
-              </div>
-
-              <!-- --- ADDRESS --- -->
-              <div class="volunteer-address" class="volunteer-form-data">
-                <form>
-                  <label for="volunteer-address"
-                    >Please enter your address:</label
-                  ><br />
-                  <textarea
-                    id="volunteer-address"
-                    name="volunteer-address"
-                    cols="40"
-                    rows="5"
-                  ></textarea>
-                </form>
+                <!-- --- COMMENTS --- -->
+                <div class="volunteer-work" class="volunteer-form-data">
+                  <form>
+                    <label for="volunteer-work"
+                      >Type of work you are interested in:</label
+                    ><br />
+                    <textarea
+                      id="volunteer-work"
+                      name="volunteer-work"
+                      cols="40"
+                      rows="15"
+                    ></textarea>
+                  </form>
+                </div>
               </div>
 
-              <!-- --- COMMENTS --- -->
-              <div class="volunteer-work" class="volunteer-form-data">
-                <form>
-                  <label for="volunteer-work"
-                    >Type of work you are interested in:</label
-                  ><br />
-                  <textarea
-                    id="volunteer-work"
-                    name="volunteer-work"
-                    cols="40"
-                    rows="15"
-                  ></textarea>
-                </form>
-              </div>
-            </div>
+              <!-- --- SECOND COLUMN --- -->
 
-            <!-- --- SECOND COLUMN --- -->
+              <div class="volunteer-col2">
+                <!-- --- DAY --- -->
+                <div class="volunteer-day" class="volunteer-form-data">
+                  <p>Which day(s) can you help?</p>
+                  <fieldset class="volunteer-day">
+                    <div>
+                      <input type="checkbox" id="monday" name="volunteer-day" />
+                      <label for="volunteer-day">Monday</label>
+                    </div>
 
-            <div class="volunteer-col2">
-              <!-- --- DAY --- -->
-              <div class="volunteer-day" class="volunteer-form-data">
-                <p>Which day(s) can you help?</p>
-                <fieldset class="volunteer-day">
-                  <div>
-                    <input type="checkbox" id="monday" name="volunteer-day" />
-                    <label for="volunteer-day">Monday</label>
-                  </div>
+                    <div>
+                      <input
+                        type="checkbox"
+                        id="tuesday"
+                        name="volunteer-day"
+                      />
+                      <label for="volunteer-day">Tuesday</label>
+                    </div>
 
-                  <div>
-                    <input type="checkbox" id="tuesday" name="volunteer-day" />
-                    <label for="volunteer-day">Tuesday</label>
-                  </div>
+                    <div>
+                      <input
+                        type="checkbox"
+                        id="wednesday"
+                        name="volunteer-day"
+                      />
+                      <label for="volunteer-day">Wednesday</label>
+                    </div>
 
-                  <div>
-                    <input
-                      type="checkbox"
-                      id="wednesday"
-                      name="volunteer-day"
-                    />
-                    <label for="volunteer-day">Wednesday</label>
-                  </div>
+                    <div>
+                      <input
+                        type="checkbox"
+                        id="thursday"
+                        name="volunteer-day"
+                      />
+                      <label for="volunteer-day">Thursday</label>
+                    </div>
+                    <div>
+                      <input type="checkbox" id="friday" name="volunteer-day" />
+                      <label for="volunteer-day">Friday</label>
+                    </div>
+                    <div>
+                      <input
+                        type="checkbox"
+                        id="saturday"
+                        name="volunteer-day"
+                      />
+                      <label for="volunteer-day">Saturday</label>
+                    </div>
+                    <div>
+                      <input type="checkbox" id="sunday" name="volunteer-day" />
+                      <label for="volunteer-day">Sunday</label>
+                    </div>
+                    <div>
+                      <input
+                        type="checkbox"
+                        id="any-day"
+                        name="volunteer-day"
+                      />
+                      <label for="volunteer-day">Any day</label>
+                    </div>
+                  </fieldset>
+                </div>
 
-                  <div>
-                    <input type="checkbox" id="thursday" name="volunteer-day" />
-                    <label for="volunteer-day">Thursday</label>
-                  </div>
-                  <div>
-                    <input type="checkbox" id="friday" name="volunteer-day" />
-                    <label for="volunteer-day">Friday</label>
-                  </div>
-                  <div>
-                    <input type="checkbox" id="saturday" name="volunteer-day" />
-                    <label for="volunteer-day">Saturday</label>
-                  </div>
-                  <div>
-                    <input type="checkbox" id="sunday" name="volunteer-day" />
-                    <label for="volunteer-day">Sunday</label>
-                  </div>
-                  <div>
-                    <input type="checkbox" id="any-day" name="volunteer-day" />
-                    <label for="volunteer-day">Any day</label>
-                  </div>
-                </fieldset>
-              </div>
+                <!-- --- TIME --- -->
 
-              <!-- --- TIME --- -->
+                <div class="volunteer-time" class="volunteer-form-data">
+                  <p>What time are you available?</p>
+                  <fieldset class="volunteer-time">
+                    <div>
+                      <input type="checkbox" id="early" name="time" />
+                      <label for="time">09:00 - 12:00</label>
+                    </div>
 
-              <div class="volunteer-time" class="volunteer-form-data">
-                <p>What time are you available?</p>
-                <fieldset class="volunteer-time">
-                  <div>
-                    <input type="checkbox" id="early" name="time" />
-                    <label for="time">09:00 - 12:00</label>
-                  </div>
+                    <div>
+                      <input type="checkbox" id="midday" name="time" />
+                      <label for="time">12:00 - 15:00</label>
+                    </div>
 
-                  <div>
-                    <input type="checkbox" id="midday" name="time" />
-                    <label for="time">12:00 - 15:00</label>
-                  </div>
+                    <div>
+                      <input type="checkbox" id="late" name="time" />
+                      <label for="time">15:00 - 20:00</label>
+                    </div>
 
-                  <div>
-                    <input type="checkbox" id="late" name="time" />
-                    <label for="time">15:00 - 20:00</label>
-                  </div>
-
-                  <div>
-                    <input type="checkbox" id="any-time" name="time" />
-                    <label for="time">Any time</label>
-                  </div>
-                </fieldset>
-                <div class="button-container"><a href="">Submit</a></div>
+                    <div>
+                      <input type="checkbox" id="any-time" name="time" />
+                      <label for="time">Any time</label>
+                    </div>
+                  </fieldset>
+                  <div class="button-container"><a href="">Submit</a></div>
+                </div>
               </div>
             </div>
           </div>

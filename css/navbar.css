@@ -15,13 +15,16 @@
 @media (max-width: 700px) {
   .nav-header {
     width: 100%;
+    padding: 0;
+    height: auto;
   }
 
   .empty-space {
     display: none;
   }
+
   .nav-bar {
-    padding-right: 4em;
+    display: none;
   }
 }
 
@@ -34,8 +37,16 @@
 /* Company logo */
 
 .logo {
-  width: 7em;
+  width: 5em;
   padding: 1em;
+}
+
+@media (max-width: 700px) {
+  .logo {
+    position: static;
+    width: 30%;
+    padding: 1em;
+  }
 }
 
 .empty-space {
@@ -46,29 +57,44 @@
 /* Collapsible menu */
 
 .collapsible-menu {
-  background-color: #fdfdfd;
+  /* background-color: #fdfdfd; */
   padding: 0 1em;
-  position: absolute;
+  position: fixed;
+  right: 10%;
+  width: 40%;
+  /* position: absolute;
   right: 1em;
-  top: 1.3em;
-  margin-right: 0.5em;
+  top: 1.3em; */
 }
 .collapsible-menu ul {
   list-style-type: none;
+  background-color: #fdfdfd;
+  width: 100%;
 }
 .collapsible-menu a {
+  width: 100%;
   display: block;
   text-decoration: none;
   color: #252925;
+  text-transform: none;
+  font-weight: 400;
+  padding: 0 1em;
+  display: block;
+  cursor: pointer;
+  position: relative;
+  padding: 0.5em 1em;
 }
 
 .hamburger-list li {
-  padding: 1em 0;
+  width: 100%;
 }
 
 .menu-content {
   font-family: "Oxygen", sans-serif;
-  max-height: 0;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: none;
+  height: 0;
   overflow: hidden;
   position: relative;
   bottom: 0em;
@@ -80,16 +106,18 @@
   display: block;
   cursor: pointer;
   background: url(../images/menu.png) no-repeat;
-  background-size: contain;
+  background-size: 20%;
+  background-position: right;
 }
 
 .collapsible-menu input:checked ~ .menu-content {
-  max-height: 100%;
+  overflow: visible;
 }
 
 .collapsible-menu input:checked + label {
   background-image: url(../images/close.png);
-  background-size: contain;
+  background-size: 20%;
+  background-position: bottom right;
 }
 
 .collapsible-menu input#menu {
@@ -103,6 +131,7 @@
   list-style: none;
   gap: 1.5em;
   font-family: "El Messiri", sans-serif;
+  margin: 0;
 }
 
 .nav-bar a {
