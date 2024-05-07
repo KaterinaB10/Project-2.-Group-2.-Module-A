@@ -7,7 +7,7 @@ Contributors:
 -  Kateryna
 -  Erik
 -  Emilie
--  
+  
 Project Goals: 
 Imagine a client has come to you with an innovative project which helps the environment and society to give a purpose to their used or unwanted CLOTHES. 
 As a front-end developer, your responsibility is to design a visually appealing, user-friendly website for Textile POD.
